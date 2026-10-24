@@ -1695,7 +1695,7 @@
       "status": "complete"
     },
     "2020-06": {
-      "checkedAt": "2026-10-25T08:50:37+09:00",
+      "checkedAt": "2026-10-25T08:53:24+09:00",
       "coverage": {
         "pagesScanned": 21,
         "reportedPublicPosts": 814,
@@ -1709,9 +1709,9 @@
         "222010313896",
         "222011347136"
       ],
-      "new": 5,
+      "new": 0,
       "changed": 0,
-      "unchanged": 0,
+      "unchanged": 5,
       "status": "complete"
     },
     "2020-07": {
@@ -1775,6 +1775,46 @@
         "222127434405"
       ],
       "new": 2,
+      "changed": 0,
+      "unchanged": 0,
+      "status": "complete"
+    },
+    "2020-11": {
+      "checkedAt": "2026-10-25T08:52:10+09:00",
+      "coverage": {
+        "pagesScanned": 20,
+        "reportedPublicPosts": 814,
+        "listingRowsSeen": 600,
+        "boundaryReached": true
+      },
+      "postIds": [
+        "222155705009",
+        "222156639977",
+        "222157341069"
+      ],
+      "new": 3,
+      "changed": 0,
+      "unchanged": 0,
+      "status": "complete"
+    },
+    "2020-12": {
+      "checkedAt": "2026-10-25T08:52:36+09:00",
+      "coverage": {
+        "pagesScanned": 20,
+        "reportedPublicPosts": 814,
+        "listingRowsSeen": 600,
+        "boundaryReached": true
+      },
+      "postIds": [
+        "222178471779",
+        "222179331864",
+        "222180605144",
+        "222182010363",
+        "222187487861",
+        "222190344978",
+        "222191075775"
+      ],
+      "new": 7,
       "changed": 0,
       "unchanged": 0,
       "status": "complete"

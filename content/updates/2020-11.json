@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T08:52:10+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222155705009",
+    "222156639977",
+    "222157341069"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-11",
+  "posts": [
+    {
+      "id": "222155705009",
+      "title": "중드-미월전(芈月传)",
+      "publishedAt": "2020-11-27T01:49+09:00",
+      "sourceHash": "20a89a3028e1155e27406f51d98128315171b3031950053dec24bf8f2f7336b5",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222156639977",
+      "title": "삼국지 요약(feat.설민석)",
+      "publishedAt": "2020-11-28T01:33+09:00",
+      "sourceHash": "286247e69c80d57474d6412d6f2b7e86668f39d01f94ca6ece2b46b32dcee37f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222157341069",
+      "title": "미월전-진나라와 진시황 TMI",
+      "publishedAt": "2020-11-29T01:31+09:00",
+      "sourceHash": "d016e419bef840fceae22e9c4b8362f2ef511aab300582f62495f06d86f7eadb",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

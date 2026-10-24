@@ -102,6 +102,11 @@ def main():
     parser.add_argument('--sources', action='store_true', help='Verify live original Naver post bodies')
     parser.add_argument('--growth', action='store_true', help='Test accumulation and pagination in an isolated temporary directory')
     args = parser.parse_args()
+    root_home = ROOT / 'root-site/index.html'
+    require(root_home.is_file(), 'Root Pages homepage copy is missing; run build.py')
+    if root_home.is_file():
+        require(root_home.read_bytes() == (ROOT / 'index.html').read_bytes(), 'Root Pages homepage copy is stale')
+    require((ROOT / 'root-site/.nojekyll').is_file(), 'Root Pages .nojekyll is missing')
     files = [ROOT / 'index.html'] + sorted((ROOT / 'posts').rglob('index.html')) + sorted((ROOT / 'topics').rglob('index.html')) + sorted((ROOT / 'archive').rglob('index.html'))
     require(len(POSTS) >= 10, 'Expected at least the initial 10 source posts')
     require(len({p['id'] for p in POSTS}) == len(POSTS), 'Duplicate source id')
@@ -172,6 +177,12 @@ def main():
     all_local_urls.add(urljoin(BASE, 'robots.txt'))
     print(f'Static checks: {len(files)} pages, {len(sitemap_urls)} indexable URLs, {len(all_local_urls)} local resources.')
     if args.http:
+        try:
+            with urlopen(args.http.rstrip('/') + '/', timeout=10) as response:
+                require(response.status == 200 and response.geturl() == args.http.rstrip('/') + '/', 'Root homepage must return 200 without redirect')
+                require(response.read() == root_home.read_bytes(), 'HTTP root homepage differs from /blog/')
+        except Exception as error:
+            errors.append('Root homepage: ' + str(error))
         for url in sorted(all_local_urls):
             local_url = args.http.rstrip('/') + urlsplit(url).path
             try:
@@ -252,6 +263,9 @@ def check_growth():
             require((builder.ROOT / path / 'index.html').is_file(), 'Missing year/month/pagination page: ' + path)
         for page in pages:
             relative = page.relative_to(builder.ROOT).as_posix().removesuffix('index.html')
+            if relative == 'root-site/':
+                require(page.read_bytes() == (builder.ROOT / 'index.html').read_bytes(), 'Growth left a stale root homepage copy')
+                continue
             doc = Document(page.read_text())
             require(doc.canonicals == [urljoin(BASE, relative)], 'Growth pagination canonical mismatch')
             for link in doc.links:

@@ -15,9 +15,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         path = unquote(urlsplit(self.path).path)
         if path == '/':
-            self.send_response(302)
-            self.send_header('Location', PREFIX)
-            self.end_headers()
+            super().do_GET()
         elif not path.startswith(PREFIX):
             self.send_error(404)
         else:
@@ -26,6 +24,8 @@ class Handler(SimpleHTTPRequestHandler):
     def translate_path(self, path):
         # SimpleHTTPRequestHandler removes traversal components after prefix removal.
         clean = urlsplit(path).path
+        if clean == '/':
+            return str(ROOT / 'root-site/index.html')
         return super().translate_path('/' + clean[len(PREFIX):])
 
 

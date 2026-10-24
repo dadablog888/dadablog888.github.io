@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T08:51:53+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222107664702",
+    "222127434405"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-10",
+  "posts": [
+    {
+      "id": "222107664702",
+      "title": "先行者",
+      "publishedAt": "2020-10-05T22:06+09:00",
+      "sourceHash": "4cfecec6e1ba082effbba0d1631e7794886cb9e69b7a36b3ae79436ca37bac3f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222127434405",
+      "title": "중국인이 보는 한국의 민주화.",
+      "publishedAt": "2020-10-27T00:15+09:00",
+      "sourceHash": "bde62df7589836372dd15dc220235fc0cd51a81abcacee6d8ee19ab0d01a0032",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

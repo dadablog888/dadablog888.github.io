@@ -64,6 +64,10 @@ python3 scripts/serve.py
 
 미리보기: `http://127.0.0.1:8000/blog/`. 실제 Pages와 같은 프로젝트 경로를 사용하므로 파일을 직접 열기보다 HTTP 서버로 확인하세요. Pages에서는 생성된 정적 파일을 제공하며 Python을 실행하지 않습니다.
 
+빌드할 때마다 `root-site/index.html`에 같은 홈을 복사합니다. `https://dadablog888.github.io/`에도 표시하려면 별도 `dadablog888.github.io` 저장소의 Pages 배포 루트에 `root-site/` 안의 두 파일(`index.html`, `.nojekyll`)을 복사합니다. 로컬에서는 `http://127.0.0.1:8000/`로 같은 화면을 확인할 수 있습니다. [루트 Pages 배포 안내](docs/seo-and-publishing.md#호스트-루트에도-같은-홈-표시).
+
+매 갱신 후 `python3 scripts/sync_root_home.py` 및 `python3 scripts/sync_root_home.py --check`를 실행하면 형제 디렉터리 `../dadablog888.github.io`에 복사하고 일치 여부를 확인합니다. 실제 공개 주소 반영에는 별도 커밋·push와 Pages 배포가 필요합니다.
+
 ```sh
 python3 scripts/test_sync_blog.py
 python3 scripts/check.py --growth

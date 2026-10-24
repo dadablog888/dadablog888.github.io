@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-25T08:52:36+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222178471779",
+    "222179331864",
+    "222180605144",
+    "222182010363",
+    "222187487861",
+    "222190344978",
+    "222191075775"
+  ],
+  "new": 7,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-12",
+  "posts": [
+    {
+      "id": "222178471779",
+      "title": "<손자병법>-1.계",
+      "publishedAt": "2020-12-19T01:53+09:00",
+      "sourceHash": "442662199bb60e4f1bd84459a55626f0bc3f672d124817db73eb9e0d3ade77fd",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222179331864",
+      "title": "<손자병법>-2.작전",
+      "publishedAt": "2020-12-20T01:07+09:00",
+      "sourceHash": "fd034b4002279dd67731848ac2f80d10de241bacf99a973c52c0266d531b01c6",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222180605144",
+      "title": "<손자병법>-3.모공",
+      "publishedAt": "2020-12-21T12:47+09:00",
+      "sourceHash": "96d2b3b041a02f785faeae6daf72bd8eb7fafa1955a5e78cc78176c8d9bb2051",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222182010363",
+      "title": "<손자병법>-4.군형",
+      "publishedAt": "2020-12-22T17:54+09:00",
+      "sourceHash": "67b6277ba061485992251368df7780c301b39a17aac63d5814f1303b863fd536",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222187487861",
+      "title": "<손자병법>-5.병세",
+      "publishedAt": "2020-12-28T00:38+09:00",
+      "sourceHash": "eba790b1c650b803a7a19b754430e83b8ac926fb94cb8d06abefa7b501b098fc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222190344978",
+      "title": "<손자병법>-6.허실",
+      "publishedAt": "2020-12-30T15:14+09:00",
+      "sourceHash": "7e69ee756f1683469d06bafc21c57d454996098b39486dd2a4fa1480ccb88a8f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222191075775",
+      "title": "백사전(白蛇传)",
+      "publishedAt": "2020-12-31T01:47+09:00",
+      "sourceHash": "2ac9633bce9b5eadd6e69cb4e169ee7faddee2463853dfc6afe9c7a5c2df1380",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

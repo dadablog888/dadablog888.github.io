@@ -285,6 +285,10 @@ def build():
     registry = ROOT / 'content/generated-pages.json'
     previous = json.loads(registry.read_text()) if registry.is_file() else []
     build_home()
+    # The user Pages repository publishes these files at the host root.
+    # Keep /blog/ asset/navigation URLs and its canonical; do not redirect.
+    write('root-site/index.html', (ROOT / 'index.html').read_text(encoding='utf-8'))
+    write('root-site/.nojekyll', '')
     build_topics()
     build_archives()
     for post in POSTS:
