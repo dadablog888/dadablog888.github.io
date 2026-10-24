@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-25T08:44:27+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222302367762",
+    "222303856682",
+    "222304587620",
+    "222304901171",
+    "222306573971",
+    "222307360636",
+    "222307367761",
+    "222308927409",
+    "222309438301",
+    "222310698852",
+    "222312489089",
+    "222314782410",
+    "222315237477",
+    "222316441264",
+    "222316480932",
+    "222318423809"
+  ],
+  "new": 16,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-04",
+  "posts": [
+    {
+      "id": "222302367762",
+      "title": "<다크호스>",
+      "publishedAt": "2021-04-07T23:11+09:00",
+      "sourceHash": "f7c69a6a570cd90f0821fa776e5b9914caa6752a9a387cb27e6752fce1bac775",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222303856682",
+      "title": "스터디1",
+      "publishedAt": "2021-04-09T11:28+09:00",
+      "sourceHash": "5a4a4318dd0523305216697777f8041a5383e4c67c080cb389bb16b321aa7b29",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222304587620",
+      "title": "샴푸바는 사랑입니다♡--노푸6년차",
+      "publishedAt": "2021-04-09T23:06+09:00",
+      "sourceHash": "f7d42ed7f1ac253b9348881cfbf85c0eb180282c186b24b2d5bdfe9e3882baca",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222304901171",
+      "title": "스터디2",
+      "publishedAt": "2021-04-10T08:56+09:00",
+      "sourceHash": "505cc90b236205b879c1ce250ee9bb135071f038f636a828b31205ee8066e92c",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222306573971",
+      "title": "스터디3",
+      "publishedAt": "2021-04-11T22:28+09:00",
+      "sourceHash": "b69e204dbf61e364396cee27611e82e0ea24fe1c68274cfb91a2d10e7df3dd59",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222307360636",
+      "title": "领导层，管理层----회사직급 정리",
+      "publishedAt": "2021-04-12T16:35+09:00",
+      "sourceHash": "9ad835be25831841a8683849e4a7c95177494d6c45fcd872f0dd640d9e719e02",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222307367761",
+      "title": "스터디4",
+      "publishedAt": "2021-04-12T16:41+09:00",
+      "sourceHash": "8d252812691943e8cfcc1fe32839d63b2c723a3e44dfd5983ee083b902b3c499",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222308927409",
+      "title": "스터디5",
+      "publishedAt": "2021-04-13T21:22+09:00",
+      "sourceHash": "71e6532a4cfe66629f91f57c95dee1e4d239eaace9fda0a589a1de76ffb52977",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222309438301",
+      "title": "스터디6",
+      "publishedAt": "2021-04-14T10:15+09:00",
+      "sourceHash": "96ee1f74705053fd29f61869aa7b153657e82299e0dc70d351874429912e27e7",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222310698852",
+      "title": "스터디7",
+      "publishedAt": "2021-04-15T11:15+09:00",
+      "sourceHash": "e06864b0a458c07c3f2d81f7c4df681688c4b48ba69b6d1f25410c2d7f82fa76",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222312489089",
+      "title": "스터디8",
+      "publishedAt": "2021-04-16T20:38+09:00",
+      "sourceHash": "3d8ad0f2fd31655f97551e1eae840c739da8e39dd3c7ea96fbab8f1e4c859e43",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222314782410",
+      "title": "스터디9",
+      "publishedAt": "2021-04-18T23:04+09:00",
+      "sourceHash": "4e50941f1e188ef33a811af1e8ca9e6fc41d9d2c2277e6b7ca05e38fae4ef48f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222315237477",
+      "title": "스터디10",
+      "publishedAt": "2021-04-19T11:27+09:00",
+      "sourceHash": "22b3ed3a3e977fb1177621f4bd5afecab69f762d1aff78e63c8d89c901f90a34",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222316441264",
+      "title": "스터디11",
+      "publishedAt": "2021-04-20T11:16+09:00",
+      "sourceHash": "235950e991dfe672448dfd417bbee008b6e535e792d6dadcfa2e096ced9dc76d",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222316480932",
+      "title": "바다오염 주범은 빨대가 아니라 어업.",
+      "publishedAt": "2021-04-20T11:52+09:00",
+      "sourceHash": "f7d341dab969ce906143d0e41e85de330d2ac4429df1ae88b85647973abb3936",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222318423809",
+      "title": "스터디12",
+      "publishedAt": "2021-04-21T22:53+09:00",
+      "sourceHash": "23b81614fd6cd107715c9f4835cb60ee950e066450d1eacf35861f5549894e14",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

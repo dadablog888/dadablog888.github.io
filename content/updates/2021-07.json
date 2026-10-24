@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T08:45:58+09:00",
+  "coverage": {
+    "pagesScanned": 19,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 570,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222441625367",
+    "222448833526"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-07",
+  "posts": [
+    {
+      "id": "222441625367",
+      "title": "17-복습",
+      "publishedAt": "2021-07-23T00:03+09:00",
+      "sourceHash": "660d97eaa7decaef374dd3081222f91c4df14b03028c51879fa7540ab5b2114e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222448833526",
+      "title": "통번역사의 앞날(2021 서울 국제통번역포럼)",
+      "publishedAt": "2021-07-28T19:49+09:00",
+      "sourceHash": "eb61d021a3630ab3a6907a0e559d16f5d9758b990ab77e1fc083bfa942fae5b6",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

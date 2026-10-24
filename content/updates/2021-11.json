@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T08:46:45+09:00",
+  "coverage": {
+    "pagesScanned": 19,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 570,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222558222296"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-11",
+  "posts": [
+    {
+      "id": "222558222296",
+      "title": "스터디 18",
+      "publishedAt": "2021-11-04T11:26+09:00",
+      "sourceHash": "d9592132af5014b96f05052889838a7d798b9f99e51c71898c9aea879fb676c7",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

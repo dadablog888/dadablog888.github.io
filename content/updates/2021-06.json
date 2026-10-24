@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T08:45:43+09:00",
+  "coverage": {
+    "pagesScanned": 19,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 570,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222388941489",
+    "222400276009"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-06",
+  "posts": [
+    {
+      "id": "222388941489",
+      "title": "스터디15",
+      "publishedAt": "2021-06-07T23:07+09:00",
+      "sourceHash": "42cd517465f7930559bb9e0333fb45f7b63e0084b213219498ee75b1be748616",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222400276009",
+      "title": "스터디16",
+      "publishedAt": "2021-06-16T16:21+09:00",
+      "sourceHash": "e45837727561fed1f1491459979635e479272154640159009aa6d2eb395c303a",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

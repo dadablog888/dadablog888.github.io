@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T08:51:28+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222094876955",
+    "222094894848",
+    "222100293887"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-09",
+  "posts": [
+    {
+      "id": "222094876955",
+      "title": "305, 350,3005 -중국어 숫자 읽기",
+      "publishedAt": "2020-09-20T23:10+09:00",
+      "sourceHash": "05627c79baf94dba267411e1a76ec054b4426250ce29ced00fca92d27a054314",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222094894848",
+      "title": "휴학, 계획.",
+      "publishedAt": "2020-09-20T23:32+09:00",
+      "sourceHash": "714c62a930641c6e0e7ee54008899657f42d81d9d834f0d66d17a4874d358569",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222100293887",
+      "title": "식량안보",
+      "publishedAt": "2020-09-26T16:29+09:00",
+      "sourceHash": "e40580fc6311e79307994ed159ce5a5af462a402516a94789c8ce55b0b5309e5",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

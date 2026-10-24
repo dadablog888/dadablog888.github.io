@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-25T08:43:11+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222230996263",
+    "222232862022",
+    "222235197661",
+    "222239790783",
+    "222244276251",
+    "222245621629",
+    "222248515754",
+    "222254287666",
+    "222258520941"
+  ],
+  "new": 9,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-02",
+  "posts": [
+    {
+      "id": "222230996263",
+      "title": "<손자병법>-11.구지",
+      "publishedAt": "2021-02-04T00:44+09:00",
+      "sourceHash": "f0b29da942fac43f6f9c60993f767477d300285a838d24a0464e5de03db99f41",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222232862022",
+      "title": "<손자병법>-12.화공",
+      "publishedAt": "2021-02-05T13:54+09:00",
+      "sourceHash": "7aaeb16ad266715d34520c00cf287529b328742d57921e4b30cd668ec374d2e8",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222235197661",
+      "title": "아몬드브리즈 라떼",
+      "publishedAt": "2021-02-07T14:46+09:00",
+      "sourceHash": "95ae5dc71b19a6db2e851a541177bf76d707fc9e7801a43b163b818925887465",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222239790783",
+      "title": "<손자병법>-13.용간",
+      "publishedAt": "2021-02-11T02:19+09:00",
+      "sourceHash": "96104fe3c1e622985587097a75adf8090f6e6986e4fc522f90e55c39f9bb46e1",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222244276251",
+      "title": "밀크세라마이드♡(내돈내산)",
+      "publishedAt": "2021-02-15T16:25+09:00",
+      "sourceHash": "edf25a7665b3e70077b6dca03a9662bbf4e36751a35db21194948e8d738239f0",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222245621629",
+      "title": "손자병법 번역서들..",
+      "publishedAt": "2021-02-16T17:18+09:00",
+      "sourceHash": "b0c5562e69e37fcd1da131a04aea4633381c715d781665dacd2c2ae625b23787",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222248515754",
+      "title": "오래되어 새로운 역사다큐",
+      "publishedAt": "2021-02-19T00:24+09:00",
+      "sourceHash": "79681cb9a4896b1928082ac98516baca4b22982c8af3300dfdb37d679c0dc64c",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222254287666",
+      "title": "동기들의 졸업",
+      "publishedAt": "2021-02-24T01:10+09:00",
+      "sourceHash": "cfcf1173df17658550492af045cb4207cca8386bfc50131758654357242cacaf",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222258520941",
+      "title": "<평균의 종말>",
+      "publishedAt": "2021-02-27T13:34+09:00",
+      "sourceHash": "ed0209038c16301763b7a1b5b0871a7398100850b9feb06f6e3e86b63044eabd",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

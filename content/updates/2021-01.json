@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T08:47:14+09:00",
+  "coverage": {
+    "pagesScanned": 20,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 600,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222198129506",
+    "222202394151",
+    "222209096276",
+    "222216807722"
+  ],
+  "new": 0,
+  "changed": 0,
+  "unchanged": 4,
+  "status": "complete",
+  "period": "2021-01",
+  "posts": [
+    {
+      "id": "222198129506",
+      "title": "<손자병법>-7.군쟁",
+      "publishedAt": "2021-01-06T11:10+09:00",
+      "sourceHash": "e363037bf2b57da3fbe38b9b3ad27329035056da8a4d1b065b9f4333c88fe774",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222202394151",
+      "title": "<손자병법>-8.구변",
+      "publishedAt": "2021-01-10T00:59+09:00",
+      "sourceHash": "1f4d6f7e1d4e7ef84440e41ccbc6ba76059568f44cfa161997c520ac1d481e88",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222209096276",
+      "title": "<손자병법>-9.행군",
+      "publishedAt": "2021-01-16T10:09+09:00",
+      "sourceHash": "0192d86c0dc2d1d037f2feb64ddbe7ed707281027574321835a2931908bb5f49",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222216807722",
+      "title": "<손자병법>-10.지형",
+      "publishedAt": "2021-01-23T00:37+09:00",
+      "sourceHash": "4ccc22258d214b5c520afd6fba4033982d2bc3c230274d47f0e4345ea7f591c7",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    }
+  ]
+}

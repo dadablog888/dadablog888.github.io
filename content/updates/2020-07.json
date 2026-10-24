@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T08:51:10+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222031697530"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-07",
+  "posts": [
+    {
+      "id": "222031697530",
+      "title": "면세점 잡지",
+      "publishedAt": "2020-07-15T15:32+09:00",
+      "sourceHash": "906a083e7995326be94ea96f9ade299bb5b56a09248b8983e79afd946f8917e6",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

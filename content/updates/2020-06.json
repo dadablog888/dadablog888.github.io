@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-25T08:50:37+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221989941865",
+    "221989991122",
+    "222007285630",
+    "222010313896",
+    "222011347136"
+  ],
+  "new": 5,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2020-06",
+  "posts": [
+    {
+      "id": "221989941865",
+      "title": "샴푸바는 사랑입니다 ♡-노푸5년차",
+      "publishedAt": "2020-06-04T16:36+09:00",
+      "sourceHash": "f382638674b90001da1edc3abc7bfaa93b760610fad5641dfb13d6bee4a632e7",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221989991122",
+      "title": "2학년 1학기, 그리고 코로나",
+      "publishedAt": "2020-06-04T17:20+09:00",
+      "sourceHash": "8e8dd4a826072e9ee2e41ae44cd3619b2cab5944de90d4cc5e6a9fe66578a1bb",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222007285630",
+      "title": "《消费主张》200620-중국 아이스크림 트렌드",
+      "publishedAt": "2020-06-20T23:50+09:00",
+      "sourceHash": "43b363b82eb79c776d18452b6f1d8abb1be323a32072fb09bb5bce7abc199c04",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222010313896",
+      "title": "《焦点访谈》200622--빈곤퇴치",
+      "publishedAt": "2020-06-24T00:18+09:00",
+      "sourceHash": "89110664dd38df3ed55dbe718ffd82ed1f8e5fbc41d44ba6c7a1cb6ae2a769b9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "222011347136",
+      "title": "관광책자-삼척三陟(feat.쏠비치)",
+      "publishedAt": "2020-06-24T23:43+09:00",
+      "sourceHash": "b386bd4beb0d9ae475199781acb40ad23beb11c47e46f321ddb80832f03aa491",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

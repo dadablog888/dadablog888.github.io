@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T08:46:26+09:00",
+  "coverage": {
+    "pagesScanned": 19,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 570,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "222500562321"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2021-09",
+  "posts": [
+    {
+      "id": "222500562321",
+      "title": "나의 첫 책, <New The 바른 중국어 Step4>",
+      "publishedAt": "2021-09-09T16:31+09:00",
+      "sourceHash": "9e3d5e5e9328aadc3bdf729ecc4a6ccb51c6ccfacd381ddf9377dfb84ce4a795",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}
