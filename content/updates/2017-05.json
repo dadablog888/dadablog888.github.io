@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:11:54+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221011264342",
+    "221011415535"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-05",
+  "posts": [
+    {
+      "id": "221011264342",
+      "title": "CCTV 뉴스 실시간으로 보기.",
+      "publishedAt": "2017-05-22T11:03+09:00",
+      "sourceHash": "a0113f56cb9dd2a964367714edfa1d4b290595e1719192f010f92329ccafa6ae",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221011415535",
+      "title": "핑크퐁-상어 가족, 중국어",
+      "publishedAt": "2017-05-22T14:09+09:00",
+      "sourceHash": "3de15ea80921911d260f3ad9d54dae6bae01de2002d602c18fd7c293e8dc13fa",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

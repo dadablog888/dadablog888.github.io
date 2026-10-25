@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:12:10+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221053087372"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-07",
+  "posts": [
+    {
+      "id": "221053087372",
+      "title": "씽취?兴趣？",
+      "publishedAt": "2017-07-17T11:10+09:00",
+      "sourceHash": "f5e4d7de1f1b30450bc0fb106ca7d0d0da7cc485a5f85fd9933aace981c3a47a",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

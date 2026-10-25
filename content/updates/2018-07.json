@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:10:03+09:00",
+  "coverage": {
+    "pagesScanned": 22,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 660,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221322877380"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-07",
+  "posts": [
+    {
+      "id": "221322877380",
+      "title": "아이핀 도용.ㅠㅠ",
+      "publishedAt": "2018-07-20T14:26+09:00",
+      "sourceHash": "53eddc51288b392f2199216e5e471154d59e470ba59ccedf1442c337899a538b",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

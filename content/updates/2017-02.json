@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:11:28+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220926697801",
+    "220944129891"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-02",
+  "posts": [
+    {
+      "id": "220926697801",
+      "title": "성조를 연습하는 잰말놀이, 绕口令",
+      "publishedAt": "2017-02-03T22:40+09:00",
+      "sourceHash": "08c68da0f57fea1606045669a0ae6dc70a17e1ca70562db1e9f420febb5ce34a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220944129891",
+      "title": "식당-餐厅，餐馆，食堂，饭馆，饭店，酒店",
+      "publishedAt": "2017-02-25T01:54+09:00",
+      "sourceHash": "128a62950a673794e9bb7a3e4687fe8028e9cdcf6bf85233e443f8c5e9d7c6a4",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

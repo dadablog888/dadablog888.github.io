@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T09:10:33+09:00",
+  "coverage": {
+    "pagesScanned": 22,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 660,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221394913574",
+    "221405825478",
+    "221406404451",
+    "221408086802",
+    "221408555413",
+    "221409755782"
+  ],
+  "new": 6,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-11",
+  "posts": [
+    {
+      "id": "221394913574",
+      "title": "흑! --黑名单，被黑，黑公关，黑文",
+      "publishedAt": "2018-11-09T11:30+09:00",
+      "sourceHash": "0cf78f84d81ecf30b22f19a15e39acbf41086acd059b3ae7905a183f4d2ba4dc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221405825478",
+      "title": "이대 통대 합격..ㅠㅠ",
+      "publishedAt": "2018-11-25T17:05+09:00",
+      "sourceHash": "b1d1a36afcd0928ec84ee2a77b0c1f256129370e3d0a7dc6bcf813df6ca6db41",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221406404451",
+      "title": "코웨이 시루직수 정수기!",
+      "publishedAt": "2018-11-26T14:03+09:00",
+      "sourceHash": "bad1a05b2e87e82a1802f416d7a41dcd4967b20a36aa943bbeb2337c38bbb78a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221408086802",
+      "title": "올리브영 바디&헤어미스트 추천~",
+      "publishedAt": "2018-11-28T16:36+09:00",
+      "sourceHash": "2ba05cf1a6da588e45639f1b2165979f93c2104b8d27fe80dcec4982a1323e4e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221408555413",
+      "title": "중국어 화장품 용어(스크랩)",
+      "publishedAt": "2018-11-29T11:05+09:00",
+      "sourceHash": "b5d1b6139521453835d5c8630bc3f593856e506a76612732c08e331aebdc72d7",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221409755782",
+      "title": "감성타코-판교 아브뉴프랑",
+      "publishedAt": "2018-11-30T21:11+09:00",
+      "sourceHash": "2bdeec4bb2f6e51051467f1d3b7f17cfc11368ac82c9f97480c2e9de2290c724",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

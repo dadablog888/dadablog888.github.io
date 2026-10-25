@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T09:09:43+09:00",
+  "coverage": {
+    "pagesScanned": 22,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 660,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221293928303",
+    "221296837186",
+    "221297986179",
+    "221307242548"
+  ],
+  "new": 4,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-06",
+  "posts": [
+    {
+      "id": "221293928303",
+      "title": "중국의 아이돌 시장.",
+      "publishedAt": "2018-06-07T22:07+09:00",
+      "sourceHash": "8c2509f00fe301bf7133371f5d8264be7a0a524620a49c773a6c06f36acc2d6a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221296837186",
+      "title": "菜场自由？",
+      "publishedAt": "2018-06-11T22:59+09:00",
+      "sourceHash": "e5addda89e684862cddff32fcd31ce6c1557a564b41e59adfb8e5322b007a19c",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221297986179",
+      "title": "우한회담(武汉中印会晤）",
+      "publishedAt": "2018-06-13T14:58+09:00",
+      "sourceHash": "33ce07b0394f385456e2e465a79387f8c646de3f26d4013199b58e616707fefc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221307242548",
+      "title": "중국의 신 4대발명.",
+      "publishedAt": "2018-06-26T17:03+09:00",
+      "sourceHash": "d5abd439d3ae37e9d555eeaa0e93c8c4b1e2159feb3aeb71e04d7adc4ed24d18",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

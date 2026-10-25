@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-25T09:12:50+09:00",
+  "coverage": {
+    "pagesScanned": 24,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 720,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221154615066",
+    "221154633931",
+    "221160051620",
+    "221162174573",
+    "221163669674",
+    "221166698072",
+    "221168547389",
+    "221170978016",
+    "221172562785",
+    "221173336715",
+    "221174998153"
+  ],
+  "new": 11,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-12",
+  "posts": [
+    {
+      "id": "221154615066",
+      "title": "2017년12월3일 HSK 6급 후기",
+      "publishedAt": "2017-12-04T00:30+09:00",
+      "sourceHash": "dec205fc845362017507b0cd93f61ff4961f99c0541e6cdfd05b2dc80edf5fb9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221154633931",
+      "title": "중드 환락송(欢乐颂)의 작가 원자탄(袁子弹)",
+      "publishedAt": "2017-12-04T01:05+09:00",
+      "sourceHash": "e1a29a216c3e58505dbf3107140fbf7852565dbaf74af174ad8c9805937f9972",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221160051620",
+      "title": "중국의 변화들...",
+      "publishedAt": "2017-12-10T23:11+09:00",
+      "sourceHash": "290c0a561db3653b805e5676914163df72fc24e7da468cbea09c0d1195753359",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221162174573",
+      "title": "欢乐颂2（Ode to Joy II）-10",
+      "publishedAt": "2017-12-13T15:47+09:00",
+      "sourceHash": "af77092abcb0048dd49454f5f55cd5b36c7e15c742d4beb7d8723d1295843ab6",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221163669674",
+      "title": "메기효과 중국어로? 鲶鱼效应",
+      "publishedAt": "2017-12-15T12:29+09:00",
+      "sourceHash": "4b0cb196bbe7843451f6c70f5170425ae70d1fefa6a2178bc9e9a38e3bda65cf",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221166698072",
+      "title": "养生",
+      "publishedAt": "2017-12-19T16:12+09:00",
+      "sourceHash": "c1ea04588870404f78542f912b1a2e57d642e1937cd21a2b402794e0de9541c4",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221168547389",
+      "title": "문재인 대통령 북경대 연설(17.12.15)",
+      "publishedAt": "2017-12-21T23:20+09:00",
+      "sourceHash": "a0e60b78f79ad3e443c096d30841b3187a3e1f7d452c75e1dc1b195712511b17",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221170978016",
+      "title": "중국인이 본 HSK",
+      "publishedAt": "2017-12-26T00:11+09:00",
+      "sourceHash": "ae080a4ab154203c400d67f2147e2b9a851c47fd32c616d2517301159103bcdf",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221172562785",
+      "title": "눈체조-眼保健操",
+      "publishedAt": "2017-12-28T00:50+09:00",
+      "sourceHash": "2598fa077b43eca76509ed38f97ce0c888abcda67eb0e95070b4b2e684866d9a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221173336715",
+      "title": "귀여운 중국노래. 好想你(하오샹니)-朱主爱",
+      "publishedAt": "2017-12-29T01:13+09:00",
+      "sourceHash": "fec8d3a8bab186311432bd3592a1707e86c6cdeae9bb621f80df5bb012bc9353",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221174998153",
+      "title": "Monday - 忙day",
+      "publishedAt": "2017-12-31T19:13+09:00",
+      "sourceHash": "ed0dff5cee63c3a7b1f7350c29c620435d3be51ea11903a58673c10d2917ec97",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

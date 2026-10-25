@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T09:23:04+09:00",
+  "coverage": {
+    "pagesScanned": 28,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 814,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220271064994",
+    "220272794172",
+    "220281312975",
+    "220281319185"
+  ],
+  "new": 0,
+  "changed": 0,
+  "unchanged": 4,
+  "status": "complete",
+  "period": "2015-02",
+  "posts": [
+    {
+      "id": "220271064994",
+      "title": "소통을 위한 언어.",
+      "publishedAt": "2015-02-12T15:16+09:00",
+      "sourceHash": "21b82e56119a1467e2343090cd1fca195fdd4aa4574618e20a890d8f4711ac38",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220272794172",
+      "title": "마라샹궈 소스 양념 파는곳, 만드는 방법 소개",
+      "publishedAt": "2015-02-14T04:55+09:00",
+      "sourceHash": "26c01da8dbd69223f80e0575166108a78bd4757ed2ae7460791157b49910e9da",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220281312975",
+      "title": "중국의 빵집",
+      "publishedAt": "2015-02-23T23:37+09:00",
+      "sourceHash": "f35cc847c654f41e9284daa34a27362bf6cc8bf471e4d58289cb2338f5c779cc",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220281319185",
+      "title": "SBS 중국 부의비밀-1, 부자의 꿈.",
+      "publishedAt": "2015-02-23T23:42+09:00",
+      "sourceHash": "3312cfd203f70032a76d4d55995294d30784776c72b4c76741ddfebb7b01c91f",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    }
+  ]
+}

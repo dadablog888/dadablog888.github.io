@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T09:09:21+09:00",
+  "coverage": {
+    "pagesScanned": 22,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 660,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221265844838",
+    "221266419062",
+    "221275783959"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-05",
+  "posts": [
+    {
+      "id": "221265844838",
+      "title": "[공유] 중국회계용어 (중국어-영어)",
+      "publishedAt": "2018-05-01T21:52+09:00",
+      "sourceHash": "e635003a744b8de1735ffe4ff3dea83225dd00616a203c9159a980985f641292",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221266419062",
+      "title": "타오바오 직구 도착~ 八宝菊花茶",
+      "publishedAt": "2018-05-02T15:52+09:00",
+      "sourceHash": "6096c6e35d3b443a4550c63c04004b63ab2405ec18d737fc755bc41316d8004a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221275783959",
+      "title": "재밌는 중국어 신조어와 표현들.",
+      "publishedAt": "2018-05-14T22:23+09:00",
+      "sourceHash": "439bf25f77f17026c7c0a9971d1631e0e37408d483a30cdea5a2399af649f586",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

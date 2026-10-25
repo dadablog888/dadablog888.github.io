@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:12:40+09:00",
+  "coverage": {
+    "pagesScanned": 24,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 720,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221149567983"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-11",
+  "posts": [
+    {
+      "id": "221149567983",
+      "title": "환락송(欢乐颂huanlesong)",
+      "publishedAt": "2017-11-27T14:26+09:00",
+      "sourceHash": "3262042c61e1a45ebf39da617590eef7cd825e3651f774db350a2e80ed609c99",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

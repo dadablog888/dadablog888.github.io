@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T09:10:57+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221412471402",
+    "221415535195",
+    "221419840406",
+    "221422987352"
+  ],
+  "new": 4,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-12",
+  "posts": [
+    {
+      "id": "221412471402",
+      "title": "흑탕차--黑糖茶",
+      "publishedAt": "2018-12-04T22:34+09:00",
+      "sourceHash": "441b1ec474457a44a7e4609b2cba776b39a88585271754e74c5102abe8438cbe",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221415535195",
+      "title": "피어나는 자스민차",
+      "publishedAt": "2018-12-09T14:36+09:00",
+      "sourceHash": "c3795c0295fbe6331889daaf50c05d9b4b7ba819f935c3d6d16d093319bf1245",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221419840406",
+      "title": "1550 이층버스!",
+      "publishedAt": "2018-12-15T16:39+09:00",
+      "sourceHash": "76eaf283c657bf62cdd325873c2a994a2326ce8230f7463ae1d340bcdd2f120e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221422987352",
+      "title": "<정의란 무엇인가>",
+      "publishedAt": "2018-12-20T00:17+09:00",
+      "sourceHash": "01d746f93401f684283b144c912ed92010c257ae07d80d936fc5dbf6d5960ea2",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

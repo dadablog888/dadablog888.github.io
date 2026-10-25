@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T09:14:47+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220724706549",
+    "220725775933",
+    "220727330796",
+    "220730533870",
+    "220731707360",
+    "220740955942"
+  ],
+  "new": 6,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-06",
+  "posts": [
+    {
+      "id": "220724706549",
+      "title": "쿵푸(功夫)와 무술(武术)의 차이...",
+      "publishedAt": "2016-06-01T10:17+09:00",
+      "sourceHash": "8f0b587f32a132af821c8d4eb1939faedbfbb7658586b538d90ed3a4da4d11f5",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220725775933",
+      "title": "<고대문명교류사>,정수일.",
+      "publishedAt": "2016-06-02T12:41+09:00",
+      "sourceHash": "74efb601cdc4910df7745bd55323a2268a0ed3159d156c30fa34af57526451e9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220727330796",
+      "title": "생각의 시작.",
+      "publishedAt": "2016-06-04T03:50+09:00",
+      "sourceHash": "a44741f25b7d1834bb64c35e6a0516ad814e79b2c5acca2250f07de26b982117",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220730533870",
+      "title": "재밌는 노래, \"对不起，我的中文不好\"",
+      "publishedAt": "2016-06-08T10:11+09:00",
+      "sourceHash": "ab2d49d889d88fecd5bcaa20d1a61416ce57b6890fc8813ab94febead9f63dd0",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220731707360",
+      "title": "오늘은 단오~",
+      "publishedAt": "2016-06-09T14:12+09:00",
+      "sourceHash": "fed050434c5fb7269377aaa5c4489e11c8a6792212144efb7654cc9bff6b0d1f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220740955942",
+      "title": "부탄.",
+      "publishedAt": "2016-06-20T11:31+09:00",
+      "sourceHash": "c12d9b4093599e99d9338bce7815e45e5b1c70947bf96a78892b260397381865",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

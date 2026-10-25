@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:16:27+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220856329926"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-11",
+  "posts": [
+    {
+      "id": "220856329926",
+      "title": "<도올의 중국일기> 2,3,4,5",
+      "publishedAt": "2016-11-08T12:03+09:00",
+      "sourceHash": "97bbb9b3c9bc619ab0deffc6f6160b95a5f0506e263f31d192c5fb0927a8fef5",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

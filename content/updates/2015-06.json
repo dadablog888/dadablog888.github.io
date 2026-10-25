@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:21:10+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220401966533"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2015-06",
+  "posts": [
+    {
+      "id": "220401966533",
+      "title": "미스 퍼프(miss puff, 泡芙小姐)",
+      "publishedAt": "2015-06-26T10:52+09:00",
+      "sourceHash": "822884e6d615ae52eb3cf9d6f11014d40b0b75a8f47462a39205b6cee5790a58",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

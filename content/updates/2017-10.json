@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T09:12:26+09:00",
+  "coverage": {
+    "pagesScanned": 24,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 720,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221114342730",
+    "221114372476",
+    "221121790688"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-10",
+  "posts": [
+    {
+      "id": "221114342730",
+      "title": "HSK 5,6급 성적 우수자 장학금!",
+      "publishedAt": "2017-10-11T00:58+09:00",
+      "sourceHash": "5b5c41ab8671a33ab7c92739f2f479d18d3f722971feeb86de05916e732162a2",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221114372476",
+      "title": "<시골빵집에서 자본론을 굽다>",
+      "publishedAt": "2017-10-11T02:28+09:00",
+      "sourceHash": "2437745aefa7bb480e2bf1323aec3676c68495827b0461554d0758f2100ca569",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221121790688",
+      "title": "水调歌头·明月几时有-苏轼",
+      "publishedAt": "2017-10-21T01:42+09:00",
+      "sourceHash": "1750e07aabfe648a5303e9b84c3b745aa24830e633d6b86e5affcfbe8fe012a7",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

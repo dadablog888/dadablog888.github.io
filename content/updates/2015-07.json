@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:21:19+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220431779942",
+    "220436113093"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2015-07",
+  "posts": [
+    {
+      "id": "220431779942",
+      "title": "<중국이 세계를 지배하면>",
+      "publishedAt": "2015-07-26T14:08+09:00",
+      "sourceHash": "5a4b93906f8ee0bfeb6a96ba84f02ba8f31ce3027edb7ab28a22295c6b1779e9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220436113093",
+      "title": "다락원 모닝레터.",
+      "publishedAt": "2015-07-30T14:48+09:00",
+      "sourceHash": "9b74a85d50be1c65ca1f485cfcf5e909d42123dba70e4eb035027735e53b1948",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

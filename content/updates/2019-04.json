@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T09:23:18+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221508198955",
+    "221508867514",
+    "221513208042",
+    "221514557270",
+    "221523610805",
+    "221523644377"
+  ],
+  "new": 0,
+  "changed": 0,
+  "unchanged": 6,
+  "status": "complete",
+  "period": "2019-04",
+  "posts": [
+    {
+      "id": "221508198955",
+      "title": "밀크티",
+      "publishedAt": "2019-04-08T10:44+09:00",
+      "sourceHash": "83f3b5178d40f85624d96490572ddaa9215ff3ddcab4a4124dba5c8045a1cd52",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221508867514",
+      "title": "통대에서 첫 달.",
+      "publishedAt": "2019-04-09T00:01+09:00",
+      "sourceHash": "ca8063abbbf793674bc922dcaedc52c4e9fc91e8438d9213b17b12da76257f4c",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221513208042",
+      "title": "[공유] [글쓰기 강좌 조교] 사회과학 글쓰기 지도 - 소논문과 학술에세이",
+      "publishedAt": "2019-04-14T11:20+09:00",
+      "sourceHash": "5f7bd359bbd3c5ea5b455d66bcd56fde96aebe1094700e1c0cb5db0bb0508d68",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221514557270",
+      "title": "노트테이킹 하기.",
+      "publishedAt": "2019-04-15T23:52+09:00",
+      "sourceHash": "da008363cc4b93b8a9d91ba854b327d65537b0df70d655a62e893c20b539b607",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221523610805",
+      "title": "중간고사 끝.",
+      "publishedAt": "2019-04-27T00:20+09:00",
+      "sourceHash": "60d639c231f829a6489f442f8b6bfb89f12f9a43538702cde6e7b56e7435444c",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221523644377",
+      "title": "5G.",
+      "publishedAt": "2019-04-27T01:35+09:00",
+      "sourceHash": "299b6c1a1258f609e02d71565aedfc122b90025dff7727880b717976f6472663",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    }
+  ]
+}

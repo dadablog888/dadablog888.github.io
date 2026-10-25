@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T09:14:23+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220674878777",
+    "220678755353",
+    "220679752926",
+    "220686302544"
+  ],
+  "new": 4,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-04",
+  "posts": [
+    {
+      "id": "220674878777",
+      "title": "2016 양회-后勤保障基地（我有问题问总理 3.11)",
+      "publishedAt": "2016-04-05T13:35+09:00",
+      "sourceHash": "a8408ffd7cb277d5ac07dbc8bd2b35c3bf0a19589b936c1d420a0515c9a85c8f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220678755353",
+      "title": "BCT와 HSK의 차이",
+      "publishedAt": "2016-04-09T15:47+09:00",
+      "sourceHash": "4d7d7c74140293565541d1243d6307c29d5bdadb08242fc076f6b183f6c0326b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220679752926",
+      "title": "[공유] 고령화 중국 신조어 첫걸음 [명견만리]",
+      "publishedAt": "2016-04-10T22:07+09:00",
+      "sourceHash": "6d7f4e38ff7d9b69ec80647fd92817d31dfe20538680876bedbbd8bb9b044fbd",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220686302544",
+      "title": "중국의 명절, 법정 공휴일",
+      "publishedAt": "2016-04-18T10:20+09:00",
+      "sourceHash": "0428068654e4f4d5d598db0cf8541c06785acfa798cc3a6ed93d9d01f1c735a4",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

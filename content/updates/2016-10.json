@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:16:11+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220832355367",
+    "220839217545"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-10",
+  "posts": [
+    {
+      "id": "220832355367",
+      "title": "중국 라디오 어플- 蜻蜓FM",
+      "publishedAt": "2016-10-10T10:07+09:00",
+      "sourceHash": "4eb83461a65a9f9c5647b62cb1365c1ba901a033dde7f100bb93dfa86b058cf1",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220839217545",
+      "title": "<옥스퍼드 중국사 수업>",
+      "publishedAt": "2016-10-18T14:06+09:00",
+      "sourceHash": "9dc09dad536c63f137c4c1c04d8e1bc9a162913c0de79955b4ce0dd13162bf70",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

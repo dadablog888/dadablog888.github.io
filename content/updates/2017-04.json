@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:11:44+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220992580203"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-04",
+  "posts": [
+    {
+      "id": "220992580203",
+      "title": "knock knock 중국어로 불러보기~",
+      "publishedAt": "2017-04-26T16:07+09:00",
+      "sourceHash": "8358782cb61aad3050ac55ed395a7b22fb7b4a65e0dce94ef536122b1afb5373",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

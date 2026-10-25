@@ -53,6 +53,22 @@ class SyncTests(unittest.TestCase):
         absolute = sync.parse_source(source_html(), '123', 'dadablog888')
         self.assertEqual(source['sourceHash'], absolute['sourceHash'])
 
+    def test_legacy_editors_keep_only_target_body_and_exact_metadata(self):
+        for body in [
+            '<div id="post-view123" class="post-view pcol2"><div class="view"><p>첫 문장<br>두 번째 문장</p></div></div>',
+            '<div id="post-view123"><div class="se_component_wrap se_documentTitle">제목 도구</div><div class="se_component_wrap sect_dsc __se_component_area"><div><p>첫 문장<br>두 번째 문장</p></div></div><div>출처 도구</div></div>',
+        ]:
+            html = '''<meta property="og:url" content="https://blog.naver.com/dadablog888/123"><meta property="og:title" content="옛 글">
+            <span class="date pcol2">2023. 11. 17.</span>
+            <span class="cate pcol2"><img><a>생각</a></span>
+            <p class="date fil5 pcol2 _postAddDate">2015. 2. 12. 15:16</p>
+            <div id="post-view999" class="post-view"><p>다른 글</p></div>'''+body+'<div>댓글 메뉴</div>'
+            with self.subTest(body=body):
+                result = sync.parse_source(html, '123', 'dadablog888')
+                self.assertEqual(result['bodyText'], '첫 문장\n두 번째 문장')
+                self.assertEqual(result['publishedAt'], '2015-02-12T15:16+09:00')
+                self.assertEqual(result['originalCategory'], '생각')
+
     def test_period_boundary_ignores_unrelated_relative_posts(self):
         listing = {'resultCode': 'S', 'totalCount': '3', 'postList': [row('900', '2시간 전'), row('123', '2026. 8. 19.'), row('100', '2026. 7. 31.')]}
         with patch.object(sync, 'get', return_value=json.dumps(listing)):

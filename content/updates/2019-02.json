@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T09:01:39+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221460467583",
+    "221461706354",
+    "221469404847"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2019-02",
+  "posts": [
+    {
+      "id": "221460467583",
+      "title": "신입생 OT 전날.",
+      "publishedAt": "2019-02-08T00:06+09:00",
+      "sourceHash": "ee5ae4b939f640608799ce7c0dd12214fd934769763b9f2796246df9196632d3",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221461706354",
+      "title": "신입생 OT",
+      "publishedAt": "2019-02-09T16:53+09:00",
+      "sourceHash": "3557428c51f27ec1b019583774eef5014df4e5a0e43640642589b08ce6fc4ac1",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221469404847",
+      "title": "돼지꿈 중국어로..",
+      "publishedAt": "2019-02-19T11:36+09:00",
+      "sourceHash": "9d190dbb21226bbd4e2b9da945172172c10c3a1ff99a683ca022d59329afecff",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:16:38+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220880022672"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-12",
+  "posts": [
+    {
+      "id": "220880022672",
+      "title": "春夜喜雨 춘야희우-杜甫 두보",
+      "publishedAt": "2016-12-07T11:58+09:00",
+      "sourceHash": "f1c100b4447aceacf23fb554959525d47e710e27cc21be1c084f662e617b33ff",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

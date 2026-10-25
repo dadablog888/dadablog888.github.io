@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:04:05+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221604462033"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2019-08",
+  "posts": [
+    {
+      "id": "221604462033",
+      "title": "一分钱一分货 = 싼게 비지떡??",
+      "publishedAt": "2019-08-03T17:55+09:00",
+      "sourceHash": "e59ffbf0dd4900697d0997df70ca45f470d4c89213dd8a21157f65fe67dac4cb",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

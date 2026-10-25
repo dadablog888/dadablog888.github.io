@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:01:24+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221433791341",
+    "221443091989"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2019-01",
+  "posts": [
+    {
+      "id": "221433791341",
+      "title": "学霸，学渣",
+      "publishedAt": "2019-01-04T01:27+09:00",
+      "sourceHash": "745769138c3a15f19865c0772a13c22ba78767d3333a471dc08c9c53d58a9987",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221443091989",
+      "title": "국가-수도 중국어.",
+      "publishedAt": "2019-01-16T02:39+09:00",
+      "sourceHash": "03f8aab60f200e86ebc4b415359ebd9d59736b55ad89d1e9dcbc05f114753db1",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

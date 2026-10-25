@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T09:03:45+09:00",
+  "coverage": {
+    "pagesScanned": 21,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 630,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221586986949",
+    "221591530140",
+    "221595472437"
+  ],
+  "new": 3,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2019-07",
+  "posts": [
+    {
+      "id": "221586986949",
+      "title": "중드 도정호(都挺好)",
+      "publishedAt": "2019-07-16T13:46+09:00",
+      "sourceHash": "63dca6ff01f2fc396043480a6b2f40f873316a33e05f654b038592b817a20b06",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221591530140",
+      "title": "타오바오 차 직구-- 목 아플 때 먹는 차",
+      "publishedAt": "2019-07-21T20:30+09:00",
+      "sourceHash": "a4aca0d16ac66f403ee6fffafb528d2e70501c93a5f948d19f575f1f971aafaf",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221595472437",
+      "title": "요우탸오!!!",
+      "publishedAt": "2019-07-25T19:22+09:00",
+      "sourceHash": "33ab0931beb27572e3bba75b897249b8c4cf68ce93520b79f07a97df8c6b7a71",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

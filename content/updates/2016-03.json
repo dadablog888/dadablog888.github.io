@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-25T09:13:50+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220649947819",
+    "220657464053",
+    "220660990792",
+    "220663760191",
+    "220664034475",
+    "220668298402",
+    "220668389797",
+    "220668412929"
+  ],
+  "new": 8,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-03",
+  "posts": [
+    {
+      "id": "220649947819",
+      "title": "2016 과외 안내입니다~ 수지중국어과외",
+      "publishedAt": "2016-03-09T13:00+09:00",
+      "sourceHash": "921d3703b5a111cd81159bc3d0db0a976b873b600429a63690a27d6f3c527f5e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220657464053",
+      "title": "<세인트존스의 고전 100권 공부법>",
+      "publishedAt": "2016-03-17T14:14+09:00",
+      "sourceHash": "beeeebaad5ee5018380cefe91199358c84ba9f3751987537d03abf1c995f1f90",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220660990792",
+      "title": "2016 양회-互联网（我有问题问总理 3.5）",
+      "publishedAt": "2016-03-21T14:06+09:00",
+      "sourceHash": "b92b8590739faaa533ba410af61d021ce96d9a41e2c877420c2cd5c7755a2b8a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220663760191",
+      "title": "2016 양회-中国智造，猎狐（我有问题问总理 3.6~3.7）",
+      "publishedAt": "2016-03-24T09:32+09:00",
+      "sourceHash": "5cc11013d93a4015e6ebf3922b984a35189f66a873fd8e171045efffaab60670",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220664034475",
+      "title": "<실락원>",
+      "publishedAt": "2016-03-24T14:30+09:00",
+      "sourceHash": "48188e083674d117a663b31f1e631f60dac663da4f40f185b8510178c77a7408",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220668298402",
+      "title": "2016 양회-全面二孩（我有问题问总理 3.8）",
+      "publishedAt": "2016-03-29T11:12+09:00",
+      "sourceHash": "8498a8d2525cb776328e1b42974f81e22c641fa7fac2500ac42227b4409be0c5",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220668389797",
+      "title": "2016 양회-军改（我有问题问总理 3.10)",
+      "publishedAt": "2016-03-29T12:48+09:00",
+      "sourceHash": "9c2bea4b39c3376e2f8cd5c76f0e7ae58bb5d449659dbc8acebc58f1497d845e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220668412929",
+      "title": "[공유] \"성공\"을 강조하는 사회는 무엇을 잃는가 [명견만리 vs TED]",
+      "publishedAt": "2016-03-29T13:17+09:00",
+      "sourceHash": "1a9f3ea1ec66cd89e62ef313315a656dc38d9f6d4692bab3eb38c909bd2611ba",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

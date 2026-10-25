@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-25T09:22:13+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220527636898",
+    "220530787805",
+    "220535655866",
+    "220539042115",
+    "220542616775",
+    "220550751790",
+    "220552426371"
+  ],
+  "new": 7,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2015-11",
+  "posts": [
+    {
+      "id": "220527636898",
+      "title": "코세라 중국철학경전 강의",
+      "publishedAt": "2015-11-03T12:22+09:00",
+      "sourceHash": "4ea94829fb39917e7f14c22c0aa2d906e5943f91893bc3c7446a290cace683bc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220530787805",
+      "title": "유아명작 - 웅진 토토리 세계명작 꼬마",
+      "publishedAt": "2015-11-06T12:15+09:00",
+      "sourceHash": "efe777fbdb09a0315ce2c74a3826d7a05b2836cb1ebb97732bb85a22426cce4b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220535655866",
+      "title": "중국의 빼빼로데이, 光棍节",
+      "publishedAt": "2015-11-11T11:44+09:00",
+      "sourceHash": "e8eb001cd42667c4c920521c4e25ae4b83d6bfa1e7da8c1b0e119e4335e4f7e9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220539042115",
+      "title": "<물로만 머리감기 놀라운 기적>. 노푸!",
+      "publishedAt": "2015-11-14T17:09+09:00",
+      "sourceHash": "eac8e7593f76187bb2fb1a3954a699b8037e313f66898c11da1b4375803bddc7",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220542616775",
+      "title": "중국돈 숫자 한자 壹贰叁 - 数字大写",
+      "publishedAt": "2015-11-18T11:13+09:00",
+      "sourceHash": "db5d8b6929cc338e490b1aeabe28425ce2ff0210f97b5c6278bd36e2716bd09b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220550751790",
+      "title": "사교육에 대하여.",
+      "publishedAt": "2015-11-26T13:56+09:00",
+      "sourceHash": "62e416d0aa633eee1aaa6418221d1436ffe50845f5390930d850a51a459c3618",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220552426371",
+      "title": "블랙 프라이데이, 직구, 하이타오 - 黑五，海淘",
+      "publishedAt": "2015-11-28T02:04+09:00",
+      "sourceHash": "25d0598ac751bbea5655970b435e58e6c3d10ae5096f0c2952ae4d40cc7518c7",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

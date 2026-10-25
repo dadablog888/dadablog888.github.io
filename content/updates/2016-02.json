@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:13:40+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220630417243"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-02",
+  "posts": [
+    {
+      "id": "220630417243",
+      "title": "노자강의.",
+      "publishedAt": "2016-02-18T01:45+09:00",
+      "sourceHash": "268b0941b81bb4bd833d511beeadabbd1fed04e1c51d5a21ba451f9118890771",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

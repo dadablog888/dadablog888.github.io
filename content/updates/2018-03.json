@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-25T09:07:41+09:00",
+  "coverage": {
+    "pagesScanned": 23,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 690,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221220487733",
+    "221220500171",
+    "221225592547",
+    "221228325662",
+    "221230669389",
+    "221234025399",
+    "221235566683",
+    "221238908477",
+    "221239712563",
+    "221239744774",
+    "221241071571"
+  ],
+  "new": 11,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-03",
+  "posts": [
+    {
+      "id": "221220487733",
+      "title": "在 위치 문제..",
+      "publishedAt": "2018-03-02T23:14+09:00",
+      "sourceHash": "9206788a38c829d120c7042a23dfe862a5ec51a958226e6cf482c2f18b572229",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221220500171",
+      "title": "광교 훠궈야 火锅",
+      "publishedAt": "2018-03-02T23:36+09:00",
+      "sourceHash": "cac2f819261d511c583695ed02eda78c51fca098fcc8288aa3de5f071c690021",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221225592547",
+      "title": "3초 안에 찾기! 你眼中，除了钱，还有我么？",
+      "publishedAt": "2018-03-10T00:03+09:00",
+      "sourceHash": "587f461b0fe4d0f18488d004cad47ef7a6c15b9c56723c3b43386ca768b235af",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221228325662",
+      "title": "알리바바의 젊은 피, 蒋凡，靖捷",
+      "publishedAt": "2018-03-13T23:52+09:00",
+      "sourceHash": "dff8421cf2398d77d8a9ddcec98506e732f80a983364b8aaedd1b0fdffc753e6",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221230669389",
+      "title": "离 vs 从~到",
+      "publishedAt": "2018-03-17T02:24+09:00",
+      "sourceHash": "614e2cb76d7cd67e5089eafced3ba4c8b1cab1e430afccecc2a0370d44f6c6b5",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221234025399",
+      "title": "<팀 켈러, 결혼을 말하다>",
+      "publishedAt": "2018-03-21T16:32+09:00",
+      "sourceHash": "12c2667af6d03c48e2f474f9f01ad6ebe9f4e8d227d13a37e8b549cc7884e7d0",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221235566683",
+      "title": "용인시 독서마라톤",
+      "publishedAt": "2018-03-23T14:23+09:00",
+      "sourceHash": "1160ee3ed59640b1f193feb5cabe8bcde912f18580e73fd0732fc7d660f16072",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221238908477",
+      "title": "<예정된 전쟁>",
+      "publishedAt": "2018-03-27T23:46+09:00",
+      "sourceHash": "5aa39e56b0d0254675d82ff19367113c375d1567a791254cf3997e2821a99134",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221239712563",
+      "title": "<동물과 식물 이름에 이런 뜻이?!>",
+      "publishedAt": "2018-03-28T22:58+09:00",
+      "sourceHash": "a371d2b3d04e577ffa1a850988ccb0175bf93e588cdab16985a0b5cef34b0580",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221239744774",
+      "title": "<이어령의 삼국유사 이야기>, 곰VS호랑이",
+      "publishedAt": "2018-03-28T23:45+09:00",
+      "sourceHash": "a10d187ccff858b1c8223276011e935e148fd046ee87933c9410de41f3b16944",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221241071571",
+      "title": "동생이 중국 출장에서 가져온 선물~ 多菲角",
+      "publishedAt": "2018-03-30T15:47+09:00",
+      "sourceHash": "13ed76660b6e6d07c6705b68cce70f45845a302fe8b09f515b8b052a6ce3b465",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

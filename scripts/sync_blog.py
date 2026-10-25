@@ -67,9 +67,13 @@ class SourceParser(HTMLParser):
             self.meta[attrs.get('property', attrs.get('name', ''))] = attrs.get('content', '')
         if tag == 'div':
             self.depth += 1
+            classes = set(attrs.get('class', '').split())
             if attrs.get('id') == 'post-view' + self.post_id:
                 self.scope_depth = self.depth
-            if self.scope_depth and 'se-main-container' in attrs.get('class', '').split():
+                if 'post-view' in classes:  # SmartEditor 2: this node is the body.
+                    self.body_depth = self.depth
+            if self.scope_depth and ('se-main-container' in classes or
+                                     {'se_component_wrap', '__se_component_area'} <= classes):
                 self.body_depth = self.depth
         if self.body_depth and tag in ['p', 'br']:
             self.parts.append('\n')
@@ -99,6 +103,8 @@ def parse_source(html, post_id, blog_id, fallback_published=None):
         raise ValueError('Readable post text was not found; keep existing introduction')
     stamp_match = re.search(r'class="se_publishDate[^>]*>([^<]+)', html)
     if not stamp_match:
+        stamp_match = re.search(r'class="[^"]*\b_postAddDate\b[^"]*"[^>]*>([^<]+)', html)
+    if not stamp_match:
         raise ValueError('Exact publication date was not found')
     numbers = list(map(int, re.findall(r'\d+', stamp_match.group(1))))
     if len(numbers) == 5:
@@ -108,6 +114,8 @@ def parse_source(html, post_id, blog_id, fallback_published=None):
     else:
         raise ValueError('Exact date unavailable in HTML or RSS; keep previous data')
     category = re.search(r'class="blog2_series"[^>]*>\s*<a[^>]*>(.*?)</a>', html, re.S)
+    if not category:
+        category = re.search(r'<span class="cate pcol2">(?:(?!</span>).)*?<a[^>]*>(.*?)</a>', html, re.S)
     source = {'id': post_id, 'sourceUrl': source_url, 'originalTitle': text_value(parser.meta['og:title']), 'publishedAt': stamp, 'publishedPrecision': 'minute', 'originalCategory': plain(category.group(1)) if category else '', 'bodyText': body}
     payload = {k: v for k, v in source.items() if k != 'publishedPrecision'}
     payload['publishedAt'] = datetime.fromisoformat(stamp).isoformat(timespec='minutes')

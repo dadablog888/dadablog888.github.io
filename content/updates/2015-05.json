@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-25T09:20:48+09:00",
+  "coverage": {
+    "pagesScanned": 27,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 810,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220352450627",
+    "220355897792",
+    "220372951282",
+    "220373561414"
+  ],
+  "new": 4,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2015-05",
+  "posts": [
+    {
+      "id": "220352450627",
+      "title": "유자 꿀 호두 또띠아피자.",
+      "publishedAt": "2015-05-07T13:39+09:00",
+      "sourceHash": "6d5a19445e87392b4cac84f0475673bc4b6cd7fb7b8a45e62278c37cd16d331f",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220355897792",
+      "title": "중국의 어버이날",
+      "publishedAt": "2015-05-11T09:55+09:00",
+      "sourceHash": "dba2c584397addd1a5dcf776a12a70108798cf83a627c2bc4ffa35095d2960ab",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220372951282",
+      "title": "ebs 다큐프라임 - 교육대동여지도",
+      "publishedAt": "2015-05-28T17:22+09:00",
+      "sourceHash": "5f3548992da95708cea3c9d6eb6384b716dc0d2c2117346ac56cafa8528e1b8e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220373561414",
+      "title": "중국어 라디오 듣기.-tune in radio",
+      "publishedAt": "2015-05-29T10:27+09:00",
+      "sourceHash": "0cc1c734e4f6ab5209072ed4765783d72fc958aa991547ac90f5b0fb005e78c1",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

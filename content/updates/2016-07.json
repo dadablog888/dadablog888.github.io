@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T09:15:12+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220760889866",
+    "220760891130",
+    "220761923434",
+    "220762937311",
+    "220762946948",
+    "220768643490"
+  ],
+  "new": 6,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-07",
+  "posts": [
+    {
+      "id": "220760889866",
+      "title": "신석기 시대의 절구.",
+      "publishedAt": "2016-07-13T10:47+09:00",
+      "sourceHash": "357d7ff6abb95aa0f3ebf91b5c3986ed2860a7833689a123f61f6f9c64928175",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220760891130",
+      "title": "텃밭.",
+      "publishedAt": "2016-07-13T10:48+09:00",
+      "sourceHash": "027357cabe37cbac9deac7850989acc7df54750970c2dee8623c27a6e3a8abfc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220761923434",
+      "title": "7/14 오늘의 수확.",
+      "publishedAt": "2016-07-14T12:59+09:00",
+      "sourceHash": "444ef69b1feef4433d1e46792545be0dc61038984fda1cd745ee7e76ce257a4c",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220762937311",
+      "title": "애들 CD정리~ 컵걸이!",
+      "publishedAt": "2016-07-15T15:01+09:00",
+      "sourceHash": "2a51cbe5d60294571237fc93ca344c1d182ab02c4c687880e56327c2bcebdb74",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220762946948",
+      "title": "漏洞百出-完美无瑕(흠이 많다- 완벽하다)",
+      "publishedAt": "2016-07-15T15:12+09:00",
+      "sourceHash": "398ca6a442bb10f3a57a6bff3da75003a3cbbe841027d929cb544b9c623d936e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220768643490",
+      "title": "不耻下问, <명견만리-한중일 청년에너지>를 보고.",
+      "publishedAt": "2016-07-22T11:02+09:00",
+      "sourceHash": "9ce14c4f2c22d9a29598d5b1a7d1e30da2cb4343b6a431ca5d389c23cbaf1f47",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

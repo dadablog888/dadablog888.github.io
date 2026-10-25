@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-25T09:08:29+09:00",
+  "coverage": {
+    "pagesScanned": 22,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 660,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "221245242474",
+    "221246887603",
+    "221248603702",
+    "221251067011",
+    "221251290008",
+    "221256214392",
+    "221256231040",
+    "221259265493",
+    "221260749771",
+    "221262382282",
+    "221262713781",
+    "221263092270"
+  ],
+  "new": 12,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2018-04",
+  "posts": [
+    {
+      "id": "221245242474",
+      "title": "쓰레기 대란, “洋垃圾”",
+      "publishedAt": "2018-04-05T00:24+09:00",
+      "sourceHash": "50e56186f388593ab732c377322953b700aa19c2e0a8689a7da7adcf4567d01b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221246887603",
+      "title": "粽子 처음 본 외국인 반응.ㅋㅋ",
+      "publishedAt": "2018-04-06T22:43+09:00",
+      "sourceHash": "b49c7c4f065fda27b788f09b79c8e1f2aefbb2afac9ac6d4e75910699bc391fa",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221248603702",
+      "title": "중국 여행 간단한 회화.",
+      "publishedAt": "2018-04-09T14:30+09:00",
+      "sourceHash": "20520391b4d4be58c55fca6725e687755669cc86f7b564787cd1588af790268b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221251067011",
+      "title": "满汉大餐-대만라면, 만한대찬.",
+      "publishedAt": "2018-04-12T12:10+09:00",
+      "sourceHash": "453312882c7b76c699c97b91f120d70f5d50a37090d027a6cd34f3569d194164",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221251290008",
+      "title": "HSK 성적 우수자 장학금 도착..^^",
+      "publishedAt": "2018-04-12T16:40+09:00",
+      "sourceHash": "79e279c9fb48fa8a0912ebdaf27cd3c87df93405050bbd13df83efebf7167fda",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221256214392",
+      "title": "<하늘에 새긴 우리역사>",
+      "publishedAt": "2018-04-19T00:18+09:00",
+      "sourceHash": "cade1dd6874f026eb41edfa01fcca0110f89d20ef52db43beb305d3da5330012",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221256231040",
+      "title": "달 옆의 별...개밥바라기별.",
+      "publishedAt": "2018-04-19T00:49+09:00",
+      "sourceHash": "cabc0bc6e1ef5ba30bdc9e824a95b47a4d79ea6433353c3ae466948acb77c65a",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221259265493",
+      "title": "중국어큐티--活泼的生命，每日默想",
+      "publishedAt": "2018-04-23T10:30+09:00",
+      "sourceHash": "3ff40b273066f2eca8369f7cf1a7127c6a2b3e80242a0896d29c628f97d1cb78",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221260749771",
+      "title": "중국 내 인재 쟁탈전.",
+      "publishedAt": "2018-04-25T00:39+09:00",
+      "sourceHash": "567e958ffe71d61328f1ffe604caf8e0081472310b2f45faacc8425e3a443bba",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221262382282",
+      "title": "타오바오 차 직구--天福茗茶",
+      "publishedAt": "2018-04-27T01:22+09:00",
+      "sourceHash": "287d1007797e005f6835c74866b66641fd20259856186eaefa835ce2cc088fc6",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221262713781",
+      "title": "남북정상회담!-cctv 보도",
+      "publishedAt": "2018-04-27T13:44+09:00",
+      "sourceHash": "962c3180a0f3676266c0974b94675da217519285069e45a23d2ea8d70317ca45",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "221263092270",
+      "title": "판문점선언(요약)- 板门店宣言",
+      "publishedAt": "2018-04-27T23:05+09:00",
+      "sourceHash": "ed13dca876f68fe75c0682600cbacbdaddfa50b9c21deae7763cbf899fa2677a",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

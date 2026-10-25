@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-25T09:15:42+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220780823333",
+    "220780826329"
+  ],
+  "new": 2,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2016-08",
+  "posts": [
+    {
+      "id": "220780823333",
+      "title": "노푸1년.",
+      "publishedAt": "2016-08-06T00:44+09:00",
+      "sourceHash": "99ebeecd7f30058fef7b1d1e7a8ba90c12451c8fa29bf9639e79c239aed310c9",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220780826329",
+      "title": "<전기없이 우아하게>",
+      "publishedAt": "2016-08-06T00:50+09:00",
+      "sourceHash": "0b254f48918dca69613d45df227f43b964802ea03d5d23bd8a3e57b164be612d",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

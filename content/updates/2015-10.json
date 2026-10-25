@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T09:21:47+09:00",
+  "coverage": {
+    "pagesScanned": 26,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 780,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220502911768",
+    "220502954867",
+    "220503604428",
+    "220503624282",
+    "220514336819",
+    "220514993144"
+  ],
+  "new": 6,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2015-10",
+  "posts": [
+    {
+      "id": "220502911768",
+      "title": "연길에서 1",
+      "publishedAt": "2015-10-08T12:03+09:00",
+      "sourceHash": "ba76ceff7984ab8349fcdd164ea9320b6005d41c29de4607fd9ed893b846decc",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220502954867",
+      "title": "연길에서 2 - 중국의 아침식사",
+      "publishedAt": "2015-10-08T12:55+09:00",
+      "sourceHash": "84cefa99c904648ff0441a800edf57fc836af73da672079db162ef23bada9d0d",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220503604428",
+      "title": "연길에서 3- 중국의 빵",
+      "publishedAt": "2015-10-09T00:44+09:00",
+      "sourceHash": "12b15f092555b3cfb72f324dc5700212ffdeeb1195f570936222eea6bba7ff05",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220503624282",
+      "title": "연길에서 4- 왕왕설병, 펑리수.",
+      "publishedAt": "2015-10-09T01:21+09:00",
+      "sourceHash": "9a0e65af6829cd17459f9ba6cec6c8bc7573560c372ea43f26841b682228d54e",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220514336819",
+      "title": "女人心，海底针 - 여자의 마음",
+      "publishedAt": "2015-10-20T17:29+09:00",
+      "sourceHash": "db734279d9729a3cfe34cb246344ec388b98c779bde572b65c2f84f513019cb7",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "220514993144",
+      "title": "茉莉花 - 모리화(말리화.자스민.)",
+      "publishedAt": "2015-10-21T11:11+09:00",
+      "sourceHash": "bfc5f1f4efc93784c2b49f386c5051b1fd9633bbe225cb11ee67339cd891146b",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

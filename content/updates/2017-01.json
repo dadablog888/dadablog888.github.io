@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-25T09:11:15+09:00",
+  "coverage": {
+    "pagesScanned": 25,
+    "reportedPublicPosts": 814,
+    "listingRowsSeen": 750,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "220918631520"
+  ],
+  "new": 1,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2017-01",
+  "posts": [
+    {
+      "id": "220918631520",
+      "title": "미가양고기!",
+      "publishedAt": "2017-01-24T00:00+09:00",
+      "sourceHash": "b8ead6bd9ad9ef31155b1f6aa9f9ee13673a44fda6ca8a739b6f1c43fe241831",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}
