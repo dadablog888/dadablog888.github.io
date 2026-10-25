@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Preview the repository at its real GitHub Pages project path, /blog/."""
+"""Preview the actual single-repository Pages layout without rewriting paths."""
 import argparse
 import json
 from functools import partial
@@ -16,18 +16,10 @@ class Handler(SimpleHTTPRequestHandler):
         path = unquote(urlsplit(self.path).path)
         if path == '/':
             super().do_GET()
-        elif not path.startswith(PREFIX):
+        elif path not in ['/robots.txt', '/.nojekyll'] and not path.startswith(PREFIX):
             self.send_error(404)
         else:
             super().do_GET()
-
-    def translate_path(self, path):
-        # SimpleHTTPRequestHandler removes traversal components after prefix removal.
-        clean = urlsplit(path).path
-        if clean == '/':
-            return str(ROOT / 'root-site/index.html')
-        return super().translate_path('/' + clean[len(PREFIX):])
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

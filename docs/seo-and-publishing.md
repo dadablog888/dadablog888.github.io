@@ -24,20 +24,31 @@
 
 ## GitHub Pages 배포
 
-정적 문서 주소는 `https://dadablog888.github.io/blog/`입니다. 기존 저장소의 Pages에서 `main`의 `/ (root)`를 사용하는 구성을 확인한 뒤 사용자가 변경 내용을 별도로 배포합니다. `.nojekyll`과 생성 HTML을 제공하므로 Pages 빌드에 Python이 필요하지 않습니다.
+통합 저장소는 `dadablog888/dadablog888.github.io`이며 Pages 배포 소스는 `Deploy from a branch` → `main` → `/ (root)`입니다. `.nojekyll`과 생성된 정적 파일을 제공하므로 Pages 빌드에 Python이 필요하지 않습니다. 빌드 결과 전체를 배포해야 하며 홈페이지 하나만 복사해서는 `/blog/`와 CSS를 제공할 수 없습니다.
 
-배포 후에는 메인과 대표 과거 소개 페이지의 공개 HTML에서 `noindex, follow`와 정확한 네이버 링크를 확인하세요. 프로젝트의 `/blog/robots.txt`는 호스트 루트 `/robots.txt`로 적용되는 파일이 아니지만, 각 HTML의 noindex는 별도로 읽힐 수 있습니다. 다른 주소를 사용한다면 사이트 설정의 URL을 바꾼 뒤 다시 생성합니다.
+```text
+index.html             # /의 홈페이지
+robots.txt             # 실제 호스트 루트 크롤링 규칙
+.nojekyll
+blog/
+  index.html           # /blog/의 같은 홈페이지
+  assets/style.css
+  posts/
+  archive/
+  topics/
+  robots.txt
+```
 
-이 스킬과 수집·적용·생성 스크립트는 커밋·push·설정 저장·배포를 자동으로 실행하지 않습니다.
+`assets/style.css`는 편집할 원본이고 `blog/assets/style.css`는 빌드한 배포본입니다. `content/`, `scripts/`, `skills/`, `docs/`는 기존 위치를 유지합니다. `content/generated-pages.json`은 `blog/`를 기준으로 한 상대 경로 목록입니다.
+
+배포 후에는 메인과 대표 과거 소개 페이지의 공개 HTML에서 `noindex, follow`와 정확한 네이버 링크를 확인하세요. 루트 `/robots.txt`가 호스트의 규칙이며 HTML의 noindex를 읽을 수 있도록 크롤링을 허용합니다.
+
+스킬과 수집·적용·생성 스크립트는 커밋·push·설정 저장·배포를 자동으로 실행하지 않습니다.
 
 ## 호스트 루트에도 같은 홈 표시
 
-`https://dadablog888.github.io/`는 별도 공개 저장소 `dadablog888/dadablog888.github.io`에서 제공합니다. 해당 저장소의 Pages를 `Deploy from a branch` → `main` → `/ (root)`로 설정합니다. `blog` 저장소의 파일만 변경해서는 호스트 루트의 404를 해결할 수 없습니다.
+`python3 scripts/build.py`는 `blog/index.html`을 최종 생성한 뒤 같은 저장소의 `index.html`에 복사합니다. 별도 저장소와 `root-site/`는 사용하지 않습니다. 매 갱신마다 `python3 scripts/sync_root_home.py --check`로 두 파일의 바이트 일치와 루트 `.nojekyll`을 확인합니다. 필요한 경우 `python3 scripts/sync_root_home.py`로 같은 저장소 안에서 홈만 다시 동기화할 수 있습니다.
 
-매번 `python3 scripts/build.py`를 실행하면 최종 홈을 바이트 단위로 복사한 `root-site/index.html`과 `root-site/.nojekyll`이 생성됩니다. **이 두 파일을 사용자 사이트 저장소의 배포 루트에 복사**합니다. `root-site` 폴더 자체를 그 아래에 넣는 것이 아니라 폴더 안의 파일을 배포 루트에 둡니다. 배포 승인과 커밋·push는 별도입니다.
+복사본은 강제 이동 없이 같은 화면을 표시합니다. CSS·메뉴·소개 링크는 기존 `/blog/` 경로를 사용하고 canonical도 `/blog/`로 유지합니다. `noindex, follow`는 루트에서도 유지합니다.
 
-현재 로컬 체크아웃은 `/Users/won/workspace/dadablog888.github.io`입니다. 매 갱신의 최종 빌드 뒤 `python3 scripts/sync_root_home.py`와 `python3 scripts/sync_root_home.py --check`를 반드시 실행합니다. 기본 대상은 dainblog의 형제 디렉터리이며, 이동한 경우 `--destination <체크아웃>`을 지정할 수 있습니다. 스크립트는 대상 저장소의 origin을 확인하고 두 파일만 복사하며 동일한 파일은 다시 쓰지 않습니다. 커밋·push는 실행하지 않습니다.
-
-복사본은 강제 이동 없이 같은 화면을 표시합니다. CSS·메뉴·소개 링크는 기존 `/blog/` 경로를 사용하고 canonical도 `/blog/`로 유지합니다. `noindex, follow`는 루트에서도 유지합니다. 새 저장소에 Pages가 활성화되고 파일이 배포되어야 실제 루트 URL이 바뀝니다.
-
-`python3 scripts/check.py`는 복사본의 누락·불일치를 검사합니다. 로컬 서버는 `/`에서도 이 복사본을 직접 제공하며 `python3 scripts/check.py --http http://127.0.0.1:8000`은 루트가 리다이렉트 없이 200 응답을 주는지 확인합니다. 실서비스 배포 후에는 두 주소의 HTML 일치와 `/blog/assets/style.css` 로딩을 확인하세요.
+`python3 scripts/check.py`는 루트 홈 일치와 `/blog/`의 실제 파일·스타일·내부 링크를 검사합니다. `python3 scripts/check.py --http http://127.0.0.1:8000`으로 실제 HTTP 응답도 검사할 수 있습니다. 로컬 서버는 `/blog/`를 가상의 경로로 바꾸지 않습니다. 실서비스 배포 후에는 두 주소의 HTML 일치와 `/blog/assets/style.css` 로딩을 확인하세요.

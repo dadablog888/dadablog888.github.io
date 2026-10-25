@@ -1,0 +1,4 @@
+# Rules apply only at hostname root; HTML noindex remains effective.
+# Naver is the primary source; do not block crawling of HTML noindex tags.
+User-agent: *
+Allow: /

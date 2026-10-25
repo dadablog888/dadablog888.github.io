@@ -17,6 +17,7 @@ $naver-blog-update 2026-10-10
 3. 본문을 실제로 읽고 독립적인 소개를 작성해 manifest에 적힌 reviewFile 경로에 저장합니다. 이는 모델이 담당하는 검토 단계이며 수집 스크립트가 자동으로 요약하는 것은 아닙니다.
 4. `python3 scripts/sync_blog.py apply 2026-08`: 모든 검토 항목을 검증한 뒤 ID별 JSON과 완료 보고서를 저장합니다. 미검토·불완전 수집을 성공으로 처리하지 않습니다.
 5. `python3 scripts/build.py`, `python3 scripts/check.py`로 생성과 검증을 수행합니다.
+6. `python3 scripts/sync_root_home.py --check`로 같은 저장소의 `index.html`과 `blog/index.html`이 일치하는지 확인합니다. 전체 배포 파일은 `blog/`에 생성되며 별도 저장소 복사는 필요하지 않습니다.
 
 같은 기간을 재실행해 원문 해시가 같으면 소개문을 다시 작성하지 않고 기존 수정일과 파일을 유지합니다. 수집 요청의 네트워크 비용은 발생하지만 원문 전체를 모델에 매번 다시 넣을 필요는 없습니다.
 

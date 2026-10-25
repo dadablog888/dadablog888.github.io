@@ -20,6 +20,7 @@ SITE = json.loads((ROOT / 'content/site.json').read_text())
 POSTS = load_posts(ROOT)
 BASE = SITE['url']
 PREFIX = urlsplit(BASE).path
+SITE_ROOT = ROOT / PREFIX.strip('/')
 errors = []
 
 
@@ -90,9 +91,9 @@ class Document(HTMLParser):
 
 def disk_path(url):
     path = unquote(urlsplit(url).path)
-    if not path.startswith(PREFIX):
+    if path != '/' and not path.startswith(PREFIX):
         return None
-    target = ROOT / path[len(PREFIX):]
+    target = ROOT / path.lstrip('/')
     return target / 'index.html' if path.endswith('/') else target
 
 
@@ -102,23 +103,28 @@ def main():
     parser.add_argument('--sources', action='store_true', help='Verify live original Naver post bodies')
     parser.add_argument('--growth', action='store_true', help='Test accumulation and pagination in an isolated temporary directory')
     args = parser.parse_args()
-    root_home = ROOT / 'root-site/index.html'
+    root_home = ROOT / 'index.html'
     require(root_home.is_file(), 'Root Pages homepage copy is missing; run build.py')
     if root_home.is_file():
-        require(root_home.read_bytes() == (ROOT / 'index.html').read_bytes(), 'Root Pages homepage copy is stale')
-    require((ROOT / 'root-site/.nojekyll').is_file(), 'Root Pages .nojekyll is missing')
-    files = [ROOT / 'index.html'] + sorted((ROOT / 'posts').rglob('index.html')) + sorted((ROOT / 'topics').rglob('index.html')) + sorted((ROOT / 'archive').rglob('index.html'))
+        require(root_home.read_bytes() == (SITE_ROOT / 'index.html').read_bytes(), 'Root homepage differs from /blog/')
+    require((ROOT / '.nojekyll').is_file(), 'Root Pages .nojekyll is missing')
+    files = sorted(SITE_ROOT.rglob('index.html'))
+    require((SITE_ROOT / 'index.html').is_file(), '/blog/ homepage is missing')
+    require((SITE_ROOT / 'assets/style.css').is_file(), '/blog/ stylesheet is missing')
+    require((SITE_ROOT / 'assets/style.css').read_bytes() == (ROOT / 'assets/style.css').read_bytes(), 'Published stylesheet is stale')
+    for legacy in ['posts', 'topics', 'archive', 'root-site']:
+        require(not (ROOT / legacy).exists(), 'Obsolete publishing directory: ' + legacy)
     require(len(POSTS) >= 10, 'Expected at least the initial 10 source posts')
     require(len({p['id'] for p in POSTS}) == len(POSTS), 'Duplicate source id')
     require(len({p['slug'] for p in POSTS}) == len(POSTS), 'Duplicate post slug')
-    require(len(list((ROOT / 'posts').glob('*/index.html'))) == len(POSTS), 'Every retained post needs a permanent introduction')
+    require(len(list((SITE_ROOT / 'posts').glob('*/index.html'))) == len(POSTS), 'Every retained post needs a permanent introduction')
     documents = {}
     all_local_urls = set()
     titles = set()
     descriptions = set()
     indexed_urls = set()
     for file in files:
-        rel = file.relative_to(ROOT).as_posix().removesuffix('index.html')
+        rel = file.relative_to(SITE_ROOT).as_posix().removesuffix('index.html')
         url = urljoin(BASE, rel)
         doc = Document(file.read_text())
         documents[file] = doc
@@ -159,18 +165,18 @@ def main():
             require(graph[0]['isBasedOn']['url'] == post['sourceUrl'], f'{rel}: structured source mismatch')
             require(graph[0]['isBasedOn']['datePublished'] == post['publishedAt'], f'{rel}: source date schema mismatch')
             require(graph[0]['dateModified'] == post['introUpdatedOn'], f'{rel}: introduction date schema mismatch')
-    home_items = documents[ROOT / 'index.html'].schemas[0]['@graph'][1]['mainEntity']['itemListElement']
+    home_items = documents[SITE_ROOT / 'index.html'].schemas[0]['@graph'][1]['mainEntity']['itemListElement']
     latest = sorted(POSTS, key=lambda p: p['publishedAt'], reverse=True)[:10]
     require([item['url'] for item in home_items] == [urljoin(BASE, 'posts/' + p['slug'] + '/') for p in latest], 'Home must list the latest 10 while retaining older posts')
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     sitemap_urls = []
-    if (ROOT / 'sitemap.xml').is_file():
-        sitemap = ET.parse(ROOT / 'sitemap.xml')
+    if (SITE_ROOT / 'sitemap.xml').is_file():
+        sitemap = ET.parse(SITE_ROOT / 'sitemap.xml')
         sitemap_urls = [x.text for x in sitemap.findall('.//s:loc', ns)]
     require(len(sitemap_urls) == len(set(sitemap_urls)), 'Sitemap duplicates')
     require(set(sitemap_urls) == indexed_urls, 'Sitemap must exactly match indexable canonical pages')
     if SITE.get('searchStrategy') == 'naver-first':
-        require(not (ROOT / 'sitemap.xml').exists(), 'Do not advertise noindex GitHub pages in a sitemap')
+        require(not (ROOT / 'sitemap.xml').exists() and not (SITE_ROOT / 'sitemap.xml').exists(), 'Do not advertise noindex GitHub pages in a sitemap')
     else:
         require(urljoin(BASE, 'sitemap.xml') in (ROOT / 'robots.txt').read_text(), 'Robots sitemap mismatch')
         all_local_urls.add(urljoin(BASE, 'sitemap.xml'))
@@ -234,9 +240,11 @@ def check_growth():
     with tempfile.TemporaryDirectory(prefix='dainblog-growth-') as directory:
         builder.ROOT = Path(directory)
         builder.POSTS = copy.deepcopy(original_posts)
+        (builder.ROOT / 'assets').mkdir()
+        (builder.ROOT / 'assets/style.css').write_bytes((ROOT / 'assets/style.css').read_bytes())
         builder.build()
         original_generated = set(builder.GENERATED)
-        old_files = {p['slug']: (builder.ROOT / builder.post_path(p) / 'index.html').read_text() for p in original_posts}
+        old_files = {p['slug']: (builder.site_root() / builder.post_path(p) / 'index.html').read_text() for p in original_posts}
         # Synthetic records remain entirely inside the temporary directory.
         for i in range(70):
             post = copy.deepcopy(original_posts[0])
@@ -253,19 +261,19 @@ def check_growth():
         builder.build()
         pages = list(builder.ROOT.rglob('index.html'))
         for post in original_posts:
-            target = builder.ROOT / builder.post_path(post) / 'index.html'
+            target = builder.site_root() / builder.post_path(post) / 'index.html'
             require(target.read_text() == old_files[post['slug']], 'Adding posts changed an existing introduction: ' + post['slug'])
-        require(len(list((builder.ROOT / 'posts').glob('*/index.html'))) == len(original_posts) + 70, 'Growth lost a saved post')
+        require(len(list((builder.site_root() / 'posts').glob('*/index.html'))) == len(original_posts) + 70, 'Growth lost a saved post')
         home = Document((builder.ROOT / 'index.html').read_text())
         items = home.schemas[0]['@graph'][1]['mainEntity']['itemListElement']
         require(len(items) == 10 and items[0]['name'] == '테스트용 기록 69', 'Growth home is not limited to latest 10')
         for path in ['archive/2026/', 'archive/2027/', 'archive/2026/12/page/2/', 'archive/2027/01/page/2/', 'topics/food-and-tea/page/3/']:
-            require((builder.ROOT / path / 'index.html').is_file(), 'Missing year/month/pagination page: ' + path)
+            require((builder.site_root() / path / 'index.html').is_file(), 'Missing year/month/pagination page: ' + path)
         for page in pages:
-            relative = page.relative_to(builder.ROOT).as_posix().removesuffix('index.html')
-            if relative == 'root-site/':
-                require(page.read_bytes() == (builder.ROOT / 'index.html').read_bytes(), 'Growth left a stale root homepage copy')
+            if page == builder.ROOT / 'index.html':
+                require(page.read_bytes() == (builder.site_root() / 'index.html').read_bytes(), 'Growth left a stale root homepage copy')
                 continue
+            relative = page.relative_to(builder.site_root()).as_posix().removesuffix('index.html')
             doc = Document(page.read_text())
             require(doc.canonicals == [urljoin(BASE, relative)], 'Growth pagination canonical mismatch')
             for link in doc.links:
@@ -273,7 +281,7 @@ def check_growth():
                 parts = urlsplit(url)
                 if parts.netloc == urlsplit(BASE).netloc:
                     path = unquote(parts.path)
-                    target = builder.ROOT / path[len(PREFIX):]
+                    target = builder.ROOT / path.lstrip('/')
                     if path.endswith('/'):
                         target /= 'index.html'
                     # The isolated fixture checks generated documents; CSS is shared unchanged.
@@ -284,7 +292,7 @@ def check_growth():
         builder.build()
         require(set(builder.GENERATED) == original_generated, 'Generated catalog did not return to the retained documents')
         for obsolete in temporary_generated - original_generated:
-            require(not (builder.ROOT / obsolete).exists(), 'Stale generated document remains: ' + obsolete)
+            require(not (builder.site_root() / obsolete).exists(), 'Stale generated document remains: ' + obsolete)
         print(f'Growth checks: initial {len(original_posts)} + 70 temporary records, year/month pagination, unchanged old URLs, all document links and safe stale-page cleanup.')
 
 

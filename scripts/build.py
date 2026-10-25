@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build a text-first static journal. Every saved post keeps a permanent URL."""
 import json
+import shutil
 from collections import defaultdict
 from datetime import datetime
 from html import escape
@@ -19,6 +20,10 @@ PAGE_SIZE = 30
 INDEXED = {}
 GENERATED = set()
 assert BASE.startswith('https://') and BASE.endswith('/')
+
+
+def site_root():
+    return ROOT / PREFIX.strip('/')
 
 
 def esc(value):
@@ -111,7 +116,7 @@ def write(path, value):
 def save_page(path, title, description, body, schema, posts, noindex=False):
     noindex = noindex or SITE.get('searchStrategy') == 'naver-first'
     graph = {'@context': 'https://schema.org', '@graph': schema}
-    write(path + 'index.html', page_head(title, description, path, graph, noindex) + body + footer())
+    write(PREFIX.strip('/') + '/' + path + 'index.html', page_head(title, description, path, graph, noindex) + body + footer())
     GENERATED.add(path + 'index.html')
     if not noindex:
         INDEXED[path] = lastmod(posts)
@@ -209,7 +214,7 @@ def build_archives():
         months[key].append(post)
     group_index('archive/', '연도·월별 전체 기록', '네이버 원문 게시일을 기준으로 다다의 중국 문화·중국어 이야기를 연도와 월별로 찾아보세요. 새 글을 추가해도 지난 글의 소개 URL은 유지됩니다.', [(y + '년', f'archive/{y}/', years[y]) for y in sorted(years, reverse=True)], [('홈', ''), ('전체 기록', None)], POSTS)
     # The overview exposes every year/month directly, without one giant post list.
-    overview = ROOT / 'archive/index.html'
+    overview = site_root() / 'archive/index.html'
     month_links = ''.join('<section><h2>' + year + '년 월별 목록</h2><ul>' + ''.join(f'<li><a href="{local("archive/" + key + "/")}">{int(key[-2:])}월 ({len(months[key])}개 글)</a></li>' for key in sorted(months, reverse=True) if key.startswith(year + '/')) + '</ul></section>' for year in sorted(years, reverse=True))
     overview.write_text(overview.read_text().replace('</main>', month_links + '</main>'))
     for year in sorted(years, reverse=True):
@@ -257,7 +262,8 @@ def build_post(post):
 def build_sitemap():
     if SITE.get('searchStrategy') == 'naver-first':
         (ROOT / 'sitemap.xml').unlink(missing_ok=True)
-        write('robots.txt', '# Rules apply only at hostname root; HTML noindex remains effective.\n# Naver is the primary source; do not block crawling of HTML noindex tags.\nUser-agent: *\nAllow: /\n')
+        (site_root() / 'sitemap.xml').unlink(missing_ok=True)
+        write(PREFIX.strip('/') + '/robots.txt', '# Rules apply only at hostname root; HTML noindex remains effective.\n# Naver is the primary source; do not block crawling of HTML noindex tags.\nUser-agent: *\nAllow: /\n')
         return
     root = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for path, modified in sorted(INDEXED.items()):
@@ -265,8 +271,8 @@ def build_sitemap():
         ET.SubElement(entry_, 'loc').text = absolute(path)
         ET.SubElement(entry_, 'lastmod').text = modified
     ET.indent(root, space='  ')
-    write('sitemap.xml', '<?xml version="1.0" encoding="utf-8"?>\n' + ET.tostring(root, encoding='unicode') + '\n')
-    write('robots.txt', '# Effective only at the hostname root /robots.txt.\n# Submit /blog/sitemap.xml in Search Console for this project site.\nUser-agent: *\nAllow: /\n\nSitemap: ' + absolute('sitemap.xml') + '\n')
+    write(PREFIX.strip('/') + '/sitemap.xml', '<?xml version="1.0" encoding="utf-8"?>\n' + ET.tostring(root, encoding='unicode') + '\n')
+    write(PREFIX.strip('/') + '/robots.txt', '# Effective only at the hostname root /robots.txt.\n# Submit /blog/sitemap.xml in Search Console for this project site.\nUser-agent: *\nAllow: /\n\nSitemap: ' + absolute('sitemap.xml') + '\n')
 
 
 def build_analysis():
@@ -285,20 +291,20 @@ def build():
     registry = ROOT / 'content/generated-pages.json'
     previous = json.loads(registry.read_text()) if registry.is_file() else []
     build_home()
-    # The user Pages repository publishes these files at the host root.
-    # Keep /blog/ asset/navigation URLs and its canonical; do not redirect.
-    write('root-site/index.html', (ROOT / 'index.html').read_text(encoding='utf-8'))
-    write('root-site/.nojekyll', '')
     build_topics()
     build_archives()
     for post in POSTS:
         build_post(post)
     build_sitemap()
     build_analysis()
+    # One repository publishes both / and /blog/ with identical homepages.
+    shutil.copytree(ROOT / 'assets', site_root() / 'assets', dirs_exist_ok=True)
+    write('index.html', (site_root() / 'index.html').read_text(encoding='utf-8'))
+    write('robots.txt', (site_root() / 'robots.txt').read_text(encoding='utf-8'))
     write('.nojekyll', '')
     # Delete only known generated files; date edits must not leave stale archive pages.
     for old in set(previous) - GENERATED:
-        target = ROOT / old
+        target = site_root() / old
         if old.endswith('/index.html') and old.split('/')[0] in {'archive', 'topics', 'posts'} and target.resolve().is_relative_to(ROOT.resolve()):
             target.unlink(missing_ok=True)
     write_json(registry, sorted(GENERATED))

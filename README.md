@@ -64,9 +64,9 @@ python3 scripts/serve.py
 
 미리보기: `http://127.0.0.1:8000/blog/`. 실제 Pages와 같은 프로젝트 경로를 사용하므로 파일을 직접 열기보다 HTTP 서버로 확인하세요. Pages에서는 생성된 정적 파일을 제공하며 Python을 실행하지 않습니다.
 
-빌드할 때마다 `root-site/index.html`에 같은 홈을 복사합니다. `https://dadablog888.github.io/`에도 표시하려면 별도 `dadablog888.github.io` 저장소의 Pages 배포 루트에 `root-site/` 안의 두 파일(`index.html`, `.nojekyll`)을 복사합니다. 로컬에서는 `http://127.0.0.1:8000/`로 같은 화면을 확인할 수 있습니다. [루트 Pages 배포 안내](docs/seo-and-publishing.md#호스트-루트에도-같은-홈-표시).
+현재 저장소 `dadablog888/dadablog888.github.io` 하나에서 두 주소를 제공합니다. 빌드는 `blog/` 아래에 홈페이지·소개·목차를 생성하고, `assets/style.css`를 `blog/assets/style.css`로 복사합니다. 같은 홈을 루트 `index.html`에도 복사하므로 `/`와 `/blog/`가 강제 이동 없이 동일하게 표시됩니다. 메뉴·CSS·글 주소와 canonical은 `/blog/`를 유지합니다.
 
-매 갱신 후 `python3 scripts/sync_root_home.py` 및 `python3 scripts/sync_root_home.py --check`를 실행하면 형제 디렉터리 `../dadablog888.github.io`에 복사하고 일치 여부를 확인합니다. 실제 공개 주소 반영에는 별도 커밋·push와 Pages 배포가 필요합니다.
+Pages의 배포 소스는 `main`의 `/ (root)`입니다. 별도 저장소로 파일을 복사하지 않습니다. 매 갱신 후 `python3 scripts/sync_root_home.py --check`로 루트 홈과 `blog/index.html`의 일치를 확인합니다. 로컬 서버도 파일 경로를 바꾸지 않아 실제 배포 구조를 검사합니다. 공개 주소 반영에는 별도 커밋·push와 Pages 배포가 필요합니다. [배포 안내](docs/seo-and-publishing.md#호스트-루트에도-같은-홈-표시).
 
 ```sh
 python3 scripts/test_sync_blog.py

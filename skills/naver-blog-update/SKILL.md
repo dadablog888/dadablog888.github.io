@@ -1,6 +1,6 @@
 ---
 name: naver-blog-update
-description: Refresh dadablog888 Naver blog introductions in the dainblog repository for an explicit YYYY-MM month or YYYY-MM-DD day, rechecking changed originals and retaining all saved years. Use for period backfills and repeat daily or monthly updates.
+description: Refresh dadablog888 Naver blog introductions in the dadablog888.github.io repository for an explicit YYYY-MM month or YYYY-MM-DD day, rechecking changed originals and retaining all saved years. Use for period backfills and repeat daily or monthly updates.
 ---
 
 # Naver blog period update
@@ -13,7 +13,7 @@ This priority applies to every month/day, including historical backfills and sch
 
 ## Target and date
 
-Use the current dainblog checkout. If invoked elsewhere, the installed skill's resolved directory belongs to `<repo>/skills/naver-blog-update`; use that repository and verify `content/site.json` has the intended Naver blog URL. Read repository instructions before editing.
+Use the current dadablog888.github.io checkout (installed at `/Users/won/workspace/dadablog888.github.io`). If invoked elsewhere, the installed skill's resolved directory belongs to `<repo>/skills/naver-blog-update`; use that repository and verify `content/site.json` has the intended Naver blog URL. Read repository instructions before editing.
 
 Require a literal **`YYYY-MM` or `YYYY-MM-DD`** in Asia/Seoul. Validate with `period_bounds` in `scripts/sync_blog.py`. Do not substitute today/yesterday/next month or silently update another period. If the period is missing or ambiguous, request the literal value. One invocation handles one period.
 
@@ -48,7 +48,7 @@ These invocations do not create a recurring schedule. In an authorized scheduled
 
 5. Run `python3 scripts/build.py` and `python3 scripts/check.py`. The site must retain all years, show only the latest ten on home, expose all saved introductions through year → month → post and topic navigation, and paginate long lists with real HTML links. Confirm every generated page stays `noindex, follow`, no images or forced redirects reappear, and no GitHub sitemap advertises noindex pages. Run `python3 scripts/test_sync_blog.py` after collector/storage changes, and `python3 scripts/check.py --growth` after archive/builder changes. Perform a representative local preview after visible changes.
 
-6. **Every refresh must copy the final homepage into the host-root Pages checkout.** After the final build, run `python3 scripts/sync_root_home.py` followed by `python3 scripts/sync_root_home.py --check`. The default destination is the sibling checkout `/Users/won/workspace/dadablog888.github.io` for this installation; use `--destination <checkout>` only when the user has relocated it. Read that repository's instructions and inspect its status before writing. The helper copies `root-site/index.html` and `root-site/.nojekyll` into its publishing root and verifies byte equality against the final project homepage. Never skip this for historical or unchanged periods. If the checkout is missing or mismatched, retain the staged `root-site/` files and report the root synchronization as incomplete; do not claim the whole refresh workflow is complete. `build.py` always regenerates `root-site/`, and `check.py` rejects a missing or stale staged copy. The `blog` repository serves `/blog/`; only `dadablog888/dadablog888.github.io` serves the host root. Preserve `/blog/` asset/navigation URLs, the `/blog/` canonical and `noindex, follow`; display the copied page directly without a forced redirect. This local copy requirement does not authorize commit, push, repository creation or Pages settings changes by itself; the user's separate instructions govern publication.
+6. **Every refresh must generate and verify both homepages in this single repository.** `build.py` publishes the full site under `blog/` and copies `blog/index.html` to the repository's `index.html`. Run `python3 scripts/sync_root_home.py --check` after the final build; it verifies the two homepages are byte-identical and root `.nojekyll` exists. Never skip this for historical or unchanged periods. Preserve `/blog/` asset/navigation URLs, the `/blog/` canonical and `noindex, follow`; show the root homepage directly without a forced redirect. Do not copy into a sibling checkout or recreate `root-site/`. The repository `dadablog888/dadablog888.github.io` now serves both `/` and `/blog/`, with Pages publishing the repository root. If `/blog/index.html` or its stylesheet is missing, the build is incomplete. This does not authorize commit, push or Pages settings changes; the user's separate instructions govern publication.
 
 7. Report the literal period, coverage, new/changed/unchanged/error counts, source/body limitations, and the local file changes, including the root homepage copy and its deployment status. Re-run collection after first applying to verify unchanged hashes when testing a new integration; unchanged runs must not rewrite introductions or advance their modification dates. Do not call an incomplete or unreviewed batch complete.
 
