@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-24T22:35:38+09:00",
+  "checkedAt": "2026-10-31T20:28:09+09:00",
   "coverage": {
-    "pagesScanned": 1,
-    "reportedPublicPosts": 814,
-    "listingRowsSeen": 30,
+    "pagesScanned": 2,
+    "reportedPublicPosts": 821,
+    "listingRowsSeen": 60,
     "boundaryReached": true
   },
   "postIds": [
@@ -29,11 +29,18 @@
     "224448351861",
     "224449562076",
     "224451250219",
-    "224451984896"
+    "224451984896",
+    "224453103929",
+    "224454710267",
+    "224455490356",
+    "224456423933",
+    "224457925150",
+    "224459239886",
+    "224460173956"
   ],
-  "new": 3,
-  "changed": 1,
-  "unchanged": 19,
+  "new": 7,
+  "changed": 6,
+  "unchanged": 17,
   "status": "complete",
   "period": "2026-10",
   "posts": [
@@ -57,8 +64,8 @@
       "id": "224433378126",
       "title": "계화(桂花)는 계수나무 꽃일까? - 차백도 계화우롱 라떼",
       "publishedAt": "2026-10-06T21:13+09:00",
-      "sourceHash": "9a0e4f780961a20b76aa315a8533e22ec6540d4edfbe7967ed31be3cf76925f8",
-      "status": "unchanged",
+      "sourceHash": "ccf440622a00d699ca90b994f0c97242c4fcbe2073c741fc3a40c05941719959",
+      "status": "changed",
       "inRequestedPeriod": true
     },
     {
@@ -98,7 +105,7 @@
       "title": "자스민차는 녹차일까? 자스민차 효능, 자스민 밀크티 만드는 법",
       "publishedAt": "2026-10-12T07:39+09:00",
       "sourceHash": "8cc18e21dfe183cccaa1f5574d69a5c0fc149b57fe0752824a3d3139be62323b",
-      "status": "changed",
+      "status": "unchanged",
       "inRequestedPeriod": true
     },
     {
@@ -121,8 +128,8 @@
       "id": "224441859161",
       "title": "중드 난향여고 ost <대몽귀 大梦归> 가사 번역 해석, 엔딩곡",
       "publishedAt": "2026-10-14T21:59+09:00",
-      "sourceHash": "c5d3eba7bde7b2ef9453cb122de45d301e9f3f731533e128a6864c69cb68e928",
-      "status": "unchanged",
+      "sourceHash": "8aeee941694d658c048e3d708ca511bbd98910d5a40308c489783348111a0e2e",
+      "status": "changed",
       "inRequestedPeriod": true
     },
     {
@@ -169,8 +176,8 @@
       "id": "224445095203",
       "title": "중드 난향여고 등장인물 인물관계도 한국어 버전",
       "publishedAt": "2026-10-18T00:32+09:00",
-      "sourceHash": "40e11791ddea6630ea7061dd7dd9514573146e093bfe11e8d27474ab70de08a0",
-      "status": "unchanged",
+      "sourceHash": "6f8832ffa789e3bf15a7ddbe32c5297edbbbe941e8855c72bbded164656c35c7",
+      "status": "changed",
       "inRequestedPeriod": true
     },
     {
@@ -193,8 +200,8 @@
       "id": "224448351861",
       "title": "차백도 우롱 소이빈 밀크티 - 리뷰, 만드는 법, 차백도 뜻",
       "publishedAt": "2026-10-21T00:32+09:00",
-      "sourceHash": "a84a3cee6128c71ebef376c0805cdb6c750830f7d7ebf42cee0bdcbb2a38a54d",
-      "status": "unchanged",
+      "sourceHash": "ce76e7ce438bbb455dfd0089a1e74459bb29e2fbc3c3c06acb080106c96eaafe",
+      "status": "changed",
       "inRequestedPeriod": true
     },
     {
@@ -202,22 +209,78 @@
       "title": "중국어 기린(麒麟)은 기린이 아니다? 신화 속 동물 기린, 옥기린 우롱차",
       "publishedAt": "2026-10-22T00:09+09:00",
       "sourceHash": "4213bdefdb54838fa48e0bc786743f7852da0910763a91c4a471af8fb60556d3",
-      "status": "new",
+      "status": "unchanged",
       "inRequestedPeriod": true
     },
     {
       "id": "224451250219",
       "title": "타오바오 직구방법 - 중국 차 추천(자스민차·장미차·계화차·기문홍차), 배송비, 위챗페이-토스 결제 방법",
       "publishedAt": "2026-10-23T14:05+09:00",
-      "sourceHash": "060730bd6cbfd13b8db19a85c239c5e542f8ebf8180d1ecf9c5c005a326ee1a4",
-      "status": "new",
+      "sourceHash": "9ab64609ccb5a59f4fe3bf1de6df947135a2d90b750415246bf8d21c29e2bb85",
+      "status": "changed",
       "inRequestedPeriod": true
     },
     {
       "id": "224451984896",
       "title": "중국 밀크티는 왜 한국에서 두 배 비쌀까? 신차음(新茶饮)，차특조(茶特调) 뜻",
-      "publishedAt": "2026-10-24T08:46:08+09:00",
-      "sourceHash": "836ae3a92a4416ec3da5f26b8f5f85e15e14ac106db6222765566c2c72f1e314",
+      "publishedAt": "2026-10-24T08:46+09:00",
+      "sourceHash": "66871afd42a5cf6fcf8297483df816cd7bb603bce302d56f22027219971627e6",
+      "status": "changed",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224453103929",
+      "title": "타오바오 추천템 직구 후기 - 계화, 자스민, 홍차 리뷰",
+      "publishedAt": "2026-10-25T15:15+09:00",
+      "sourceHash": "00f633732430fb35c1d49b716c86d7e5b5c556ba71d7c28684f7c27e76e01484",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224454710267",
+      "title": "중드 난향여고, 중국어로 ‘엄마’는 마마(妈妈)? 냥(娘)?",
+      "publishedAt": "2026-10-26T23:21+09:00",
+      "sourceHash": "9c79220b5656c892dd0b270e9ba794788269b142634ea850eee101c4fb009646",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224455490356",
+      "title": "[중국어 큐티] 한중 매일성경, 心满意足 만족",
+      "publishedAt": "2026-10-27T15:30+09:00",
+      "sourceHash": "c2b0ae0dfbf0d74697fd3c1ba398d311c19886b6721df082b4f6864e4ae2929d",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224456423933",
+      "title": "계화 밀크티 계화 우유 만들기 桂花牛奶",
+      "publishedAt": "2026-10-28T11:13+09:00",
+      "sourceHash": "9c621ff31d36c68a5656d4fb4b20a243b9c7fe4f2df0114e043d6af5728d8127",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224457925150",
+      "title": "중국 드라마 세 손가락 동작의 의미 - 对天发誓 하늘에 맹세",
+      "publishedAt": "2026-10-29T16:03+09:00",
+      "sourceHash": "75eea290d26b24bfe59f4955acd5c9ae3dca141ec2ab361bdb74a3fb4e77302c",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224459239886",
+      "title": "난향여고 결말 해석 - 감독 인터뷰, 活(활)에서 善(선)으로",
+      "publishedAt": "2026-10-30T17:06+09:00",
+      "sourceHash": "b281626677c4f6a377b2159acd108fa381617d1f8724080169dc65c2d7cfad59",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224460173956",
+      "title": "난향여고 34화 콩 암호의 의미 - 칠보시 七步诗, 조식 曹植",
+      "publishedAt": "2026-10-31T15:41:00+09:00",
+      "sourceHash": "97e8f2092e5185ce51cfc0b8118e5422fa3461408b1c59e2d861d78479d0337d",
       "status": "new",
       "inRequestedPeriod": true
     }

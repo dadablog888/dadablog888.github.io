@@ -20,11 +20,11 @@
       "status": "complete"
     },
     "2026-10": {
-      "checkedAt": "2026-10-24T22:35:38+09:00",
+      "checkedAt": "2026-10-31T20:28:09+09:00",
       "coverage": {
-        "pagesScanned": 1,
-        "reportedPublicPosts": 814,
-        "listingRowsSeen": 30,
+        "pagesScanned": 2,
+        "reportedPublicPosts": 821,
+        "listingRowsSeen": 60,
         "boundaryReached": true
       },
       "postIds": [
@@ -50,11 +50,18 @@
         "224448351861",
         "224449562076",
         "224451250219",
-        "224451984896"
+        "224451984896",
+        "224453103929",
+        "224454710267",
+        "224455490356",
+        "224456423933",
+        "224457925150",
+        "224459239886",
+        "224460173956"
       ],
-      "new": 3,
-      "changed": 1,
-      "unchanged": 19,
+      "new": 7,
+      "changed": 6,
+      "unchanged": 17,
       "status": "complete"
     },
     "2026-01": {
