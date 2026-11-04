@@ -79,6 +79,8 @@ git diff --check
 
 ## Google AdSense
 
+루트 `ads.txt`에는 같은 계정의 판매자 정보를 둡니다. 배포 후 `https://dadablog888.github.io/ads.txt`에서 제공되며 `/`와 `/blog/`가 함께 사용합니다. 게시자 계정을 바꾸면 `adsenseClient`와 `ads.txt`를 함께 수정하세요.
+
 `content/site.json`의 `adsenseClient`에 게시자 ID를 설정하면 공통 `<head>`에 비동기 AdSense 스크립트를 한 번 삽입합니다. 현재 ID는 `ca-pub-3214416524399138`입니다. `python3 scripts/build.py` 실행 시 루트 `/`, `/blog/`와 모든 소개·목차 페이지에 반영됩니다. `/`와 `/blog/`는 같은 호스트의 경로이며 같은 코드를 사용합니다. 공개 사이트 반영에는 커밋·push와 Pages 배포가 필요합니다.
 
 ## 문서

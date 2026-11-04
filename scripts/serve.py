@@ -16,7 +16,7 @@ class Handler(SimpleHTTPRequestHandler):
         path = unquote(urlsplit(self.path).path)
         if path == '/':
             super().do_GET()
-        elif path not in ['/robots.txt', '/.nojekyll'] and not path.startswith(PREFIX):
+        elif path not in ['/robots.txt', '/ads.txt', '/.nojekyll'] and not path.startswith(PREFIX):
             self.send_error(404)
         else:
             super().do_GET()
