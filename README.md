@@ -77,6 +77,10 @@ git diff --check
 
 오프라인 테스트는 명시 날짜, 기간 범위, 본문 수정 판별, 검토 누락 시 적용 차단과 재실행 시 기존 파일 유지 동작을 확인합니다. `--growth`는 임시 디렉터리에 가상 글 70개를 추가해 연도 전환·월별 및 주제별 페이지 나누기를 점검합니다. 가상 글은 실제 콘텐츠에 저장하지 않습니다.
 
+## Google AdSense
+
+`content/site.json`의 `adsenseClient`에 게시자 ID를 설정하면 공통 `<head>`에 비동기 AdSense 스크립트를 한 번 삽입합니다. 현재 ID는 `ca-pub-3214416524399138`입니다. `python3 scripts/build.py` 실행 시 루트 `/`, `/blog/`와 모든 소개·목차 페이지에 반영됩니다. `/`와 `/blog/`는 같은 호스트의 경로이며 같은 코드를 사용합니다. 공개 사이트 반영에는 커밋·push와 Pages 배포가 필요합니다.
+
 ## 문서
 
 - [게시물별 분석](docs/content-analysis.md)

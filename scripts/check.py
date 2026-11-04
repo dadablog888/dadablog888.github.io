@@ -44,6 +44,7 @@ class Document(HTMLParser):
         self.json_text = ''
         self.html_lang = None
         self.images = []
+        self.adsense_count = 0
         self.feed(html)
 
     def handle_starttag(self, tag, attrs):
@@ -68,7 +69,11 @@ class Document(HTMLParser):
         if tag == 'title':
             self.in_title = True
         if tag == 'script':
-            require(a.get('type') == 'application/ld+json', 'Unexpected executable client-side script')
+            is_adsense = bool(SITE.get('adsenseClient')) and a.get('src') == 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + SITE['adsenseClient']
+            if is_adsense:
+                self.adsense_count += 1
+                require('async' in a and a.get('crossorigin') == 'anonymous', 'AdSense script requires async and anonymous crossorigin')
+            require(a.get('type') == 'application/ld+json' or is_adsense, 'Unexpected executable client-side script')
             self.in_json = a.get('type') == 'application/ld+json'
             self.json_text = ''
 
@@ -127,6 +132,7 @@ def main():
         rel = file.relative_to(SITE_ROOT).as_posix().removesuffix('index.html')
         url = urljoin(BASE, rel)
         doc = Document(file.read_text())
+        require(doc.adsense_count == (1 if SITE.get('adsenseClient') else 0), f'{rel}: AdSense script count mismatch')
         documents[file] = doc
         require(doc.html_lang == 'ko', f'{rel}: language missing')
         require(doc.h1_count == 1, f'{rel}: expected one h1')

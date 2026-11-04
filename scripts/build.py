@@ -76,6 +76,7 @@ def breadcrumbs(items):
 def page_head(title, description, path, schema, noindex=False):
     noindex = noindex or SITE.get('searchStrategy') == 'naver-first'
     verification = f'<meta name="google-site-verification" content="{esc(SITE["googleSiteVerification"])}">' if SITE.get('googleSiteVerification') else ''
+    adsense = f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={esc(SITE["adsenseClient"])}" crossorigin="anonymous"></script>' if SITE.get('adsenseClient') else ''
     data = json.dumps(schema, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     return f'''<!doctype html>
 <html lang="ko">
@@ -94,6 +95,7 @@ def page_head(title, description, path, schema, noindex=False):
   <meta property="og:url" content="{esc(absolute(path))}">
   <meta name="twitter:card" content="summary">
 {verification}
+{adsense}
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="{local('assets/style.css')}">
   <script type="application/ld+json">{data}</script>
