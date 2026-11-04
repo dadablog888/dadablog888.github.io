@@ -2918,6 +2918,25 @@
       "changed": 0,
       "unchanged": 0,
       "status": "complete"
+    },
+    "2026-11": {
+      "checkedAt": "2026-11-04T23:51:28+09:00",
+      "coverage": {
+        "pagesScanned": 1,
+        "reportedPublicPosts": 825,
+        "listingRowsSeen": 30,
+        "boundaryReached": true
+      },
+      "postIds": [
+        "224461337875",
+        "224461991003",
+        "224463896670",
+        "224464678893"
+      ],
+      "new": 4,
+      "changed": 0,
+      "unchanged": 0,
+      "status": "complete"
     }
   }
 }

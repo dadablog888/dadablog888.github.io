@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-04T23:51:28+09:00",
+  "coverage": {
+    "pagesScanned": 1,
+    "reportedPublicPosts": 825,
+    "listingRowsSeen": 30,
+    "boundaryReached": true
+  },
+  "postIds": [
+    "224461337875",
+    "224461991003",
+    "224463896670",
+    "224464678893"
+  ],
+  "new": 4,
+  "changed": 0,
+  "unchanged": 0,
+  "status": "complete",
+  "period": "2026-11",
+  "posts": [
+    {
+      "id": "224461337875",
+      "title": "중국 드라마의 여성 서사, ‘여적여’에서 '여성호조(女性互助)'로",
+      "publishedAt": "2026-11-01T19:01+09:00",
+      "sourceHash": "6b54ed905a245ce860d5d683d7d533a574671003700bda2e4d9d4ac8acf3d4b0",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224461991003",
+      "title": "차를 자주 마시면 이득! 爱喝茶的人赚了！홍차 녹차 효능",
+      "publishedAt": "2026-11-02T10:50+09:00",
+      "sourceHash": "5ba302e4b8980585a7eed858c58116a0bd30e3b7bae1028c29f6a2755bea17b4",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224463896670",
+      "title": "타오바오 직구 차지 티백 3종 후기｜CHAGEE 백아절현·화전오룡·계복난향 밀크티 만들기",
+      "publishedAt": "2026-11-03T20:45+09:00",
+      "sourceHash": "7fd8d14cebdecd7f2754abf334b216c7380b46bd3cca08458c875b510db91bc2",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224464678893",
+      "title": "상원/하원, 상원의원/하원의원 뜻, 중국어 - 参议院 众议院 参议员 众议员",
+      "publishedAt": "2026-11-04T14:13:28+09:00",
+      "sourceHash": "d93cfe5ed2892d29d004babf786cca643b57fffa757567310a828cdf8b9e55a2",
+      "status": "new",
+      "inRequestedPeriod": true
+    }
+  ]
+}

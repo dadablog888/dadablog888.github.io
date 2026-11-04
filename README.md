@@ -21,7 +21,7 @@ $naver-blog-update 2026-10-10
 
 월은 해당 월 전체, 일은 해당 날짜의 게시물을 확인합니다. 같은 기간을 재실행하면 이미 보관한 글도 원문을 다시 확인하고 변경된 소개만 검토·갱신합니다. 매일 과거 한 달씩 처리할 때도 실행할 월을 명시하세요. 예약 작업을 생성한 것은 아닙니다.
 
-스킬 원본: [skills/naver-blog-update/SKILL.md](skills/naver-blog-update/SKILL.md). 개인 스킬 검색 경로 `~/.codex/skills/naver-blog-update`에 이 폴더를 연결했습니다. 스킬 이름이 현재 대화의 목록에 아직 나타나지 않으면 새 대화에서 실행하거나 위 SKILL.md 경로를 명시해 사용할 수 있습니다.
+스킬 원본: [skills/naver-blog-update/SKILL.md](skills/naver-blog-update/SKILL.md). 프로젝트 스킬 검색 경로 `.agents/skills/naver-blog-update`에서 이 폴더를 상대 심볼릭 링크로 연결합니다. 스킬이 목록에 나타나지 않으면 Codex를 재시작하거나 위 SKILL.md 경로를 명시해 사용할 수 있습니다.
 
 세부 절차와 재실행 기준은 [기간별 갱신 안내](docs/period-updates.md)에 있습니다. 기본적으로 커밋·push·배포는 실행하지 않습니다.
 
