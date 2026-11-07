@@ -2920,10 +2920,10 @@
       "status": "complete"
     },
     "2026-11": {
-      "checkedAt": "2026-11-04T23:51:28+09:00",
+      "checkedAt": "2026-11-07T16:20:05+09:00",
       "coverage": {
         "pagesScanned": 1,
-        "reportedPublicPosts": 825,
+        "reportedPublicPosts": 828,
         "listingRowsSeen": 30,
         "boundaryReached": true
       },
@@ -2931,11 +2931,14 @@
         "224461337875",
         "224461991003",
         "224463896670",
-        "224464678893"
+        "224464678893",
+        "224466313548",
+        "224467453937",
+        "224468342671"
       ],
-      "new": 4,
+      "new": 3,
       "changed": 0,
-      "unchanged": 0,
+      "unchanged": 4,
       "status": "complete"
     }
   }

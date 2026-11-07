@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-04T23:51:28+09:00",
+  "checkedAt": "2026-11-07T16:20:05+09:00",
   "coverage": {
     "pagesScanned": 1,
-    "reportedPublicPosts": 825,
+    "reportedPublicPosts": 828,
     "listingRowsSeen": 30,
     "boundaryReached": true
   },
@@ -10,11 +10,14 @@
     "224461337875",
     "224461991003",
     "224463896670",
-    "224464678893"
+    "224464678893",
+    "224466313548",
+    "224467453937",
+    "224468342671"
   ],
-  "new": 4,
+  "new": 3,
   "changed": 0,
-  "unchanged": 0,
+  "unchanged": 4,
   "status": "complete",
   "period": "2026-11",
   "posts": [
@@ -23,7 +26,7 @@
       "title": "중국 드라마의 여성 서사, ‘여적여’에서 '여성호조(女性互助)'로",
       "publishedAt": "2026-11-01T19:01+09:00",
       "sourceHash": "6b54ed905a245ce860d5d683d7d533a574671003700bda2e4d9d4ac8acf3d4b0",
-      "status": "new",
+      "status": "unchanged",
       "inRequestedPeriod": true
     },
     {
@@ -31,7 +34,7 @@
       "title": "차를 자주 마시면 이득! 爱喝茶的人赚了！홍차 녹차 효능",
       "publishedAt": "2026-11-02T10:50+09:00",
       "sourceHash": "5ba302e4b8980585a7eed858c58116a0bd30e3b7bae1028c29f6a2755bea17b4",
-      "status": "new",
+      "status": "unchanged",
       "inRequestedPeriod": true
     },
     {
@@ -39,14 +42,38 @@
       "title": "타오바오 직구 차지 티백 3종 후기｜CHAGEE 백아절현·화전오룡·계복난향 밀크티 만들기",
       "publishedAt": "2026-11-03T20:45+09:00",
       "sourceHash": "7fd8d14cebdecd7f2754abf334b216c7380b46bd3cca08458c875b510db91bc2",
-      "status": "new",
+      "status": "unchanged",
       "inRequestedPeriod": true
     },
     {
       "id": "224464678893",
       "title": "상원/하원, 상원의원/하원의원 뜻, 중국어 - 参议院 众议院 参议员 众议员",
-      "publishedAt": "2026-11-04T14:13:28+09:00",
+      "publishedAt": "2026-11-04T14:13+09:00",
       "sourceHash": "d93cfe5ed2892d29d004babf786cca643b57fffa757567310a828cdf8b9e55a2",
+      "status": "unchanged",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224466313548",
+      "title": "특이점 중국어로? 奇点",
+      "publishedAt": "2026-11-05T19:13+09:00",
+      "sourceHash": "9b3d071e62a7144b61e5490a12e74dc6fc75d8d5d8298b0559da98384e5803dd",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224467453937",
+      "title": "계화꿀(桂花蜜) 만드는 법｜계화우유 만들기",
+      "publishedAt": "2026-11-06T17:45:48+09:00",
+      "sourceHash": "e1226e10bbbe319d4c75e5a7269097b44911873403429d0a0f4d0461cd27ac0b",
+      "status": "new",
+      "inRequestedPeriod": true
+    },
+    {
+      "id": "224468342671",
+      "title": "요즘 중국 MZ세대 신조어 - 纯过日子(그냥 살기)",
+      "publishedAt": "2026-11-07T15:45:48+09:00",
+      "sourceHash": "3c92656f428f375d3959418a71302c412416a7eba7c579afdc3d605d2c3559da",
       "status": "new",
       "inRequestedPeriod": true
     }
